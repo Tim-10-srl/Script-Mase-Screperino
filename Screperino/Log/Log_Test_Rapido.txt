@@ -1,0 +1,100 @@
+2025-08-13 10:58:19,931 - INFO - ======================================================
+2025-08-13 10:58:19,931 - INFO -   AVVIO TEST RAPIDO DEL FLUSSO COMPLETO
+2025-08-13 10:58:19,931 - INFO -   Simuleremo 17 estrazioni ogni 30 secondi.
+2025-08-13 10:58:19,931 - INFO - ======================================================
+2025-08-13 10:58:19,931 - INFO - --> Esecuzione estrazione di test (1/17)
+2025-08-13 10:58:19,931 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-08-13 11:07:48,484 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-13 11:07:48,484 - INFO - Attesa di 30 secondi prima della prossima estrazione...
+
+2025-08-13 11:08:18,485 - INFO - --> Esecuzione estrazione di test (2/17)
+2025-08-13 11:08:18,485 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-08-13 11:16:27,563 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-13 11:16:27,563 - INFO - Attesa di 30 secondi prima della prossima estrazione...
+
+2025-08-13 11:16:57,566 - INFO - --> Esecuzione estrazione di test (3/17)
+2025-08-13 11:16:57,566 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-08-13 11:25:05,013 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-13 11:25:05,013 - INFO - Attesa di 30 secondi prima della prossima estrazione...
+
+2025-08-13 11:25:35,016 - INFO - --> Esecuzione estrazione di test (4/17)
+2025-08-13 11:25:35,016 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-08-13 11:33:50,966 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-13 11:33:50,967 - INFO - Attesa di 30 secondi prima della prossima estrazione...
+
+2025-08-13 11:34:20,970 - INFO - --> Esecuzione estrazione di test (5/17)
+2025-08-13 11:34:20,971 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-08-13 11:43:09,373 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-13 11:43:09,374 - INFO - Attesa di 30 secondi prima della prossima estrazione...
+
+2025-08-13 11:43:39,374 - INFO - --> Esecuzione estrazione di test (6/17)
+2025-08-13 11:43:39,376 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-08-13 11:52:27,411 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-13 11:52:27,411 - INFO - Attesa di 30 secondi prima della prossima estrazione...
+
+2025-08-13 11:52:57,415 - INFO - --> Esecuzione estrazione di test (7/17)
+2025-08-13 11:52:57,415 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-08-13 12:01:07,481 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-13 12:01:07,481 - INFO - Attesa di 30 secondi prima della prossima estrazione...
+
+2025-08-13 12:01:37,482 - INFO - --> Esecuzione estrazione di test (8/17)
+2025-08-13 12:01:37,482 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-08-13 12:09:54,813 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-13 12:09:54,826 - INFO - Attesa di 30 secondi prima della prossima estrazione...
+
+2025-08-13 12:10:24,827 - INFO - --> Esecuzione estrazione di test (9/17)
+2025-08-13 12:10:24,827 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-08-13 12:18:37,760 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-13 12:18:37,760 - INFO - Attesa di 30 secondi prima della prossima estrazione...
+
+2025-08-13 12:19:07,761 - INFO - --> Esecuzione estrazione di test (10/17)
+2025-08-13 12:19:07,761 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-08-13 12:27:16,901 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-13 12:27:16,901 - INFO - Attesa di 30 secondi prima della prossima estrazione...
+
+2025-08-13 12:27:46,904 - INFO - --> Esecuzione estrazione di test (11/17)
+2025-08-13 12:27:46,904 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-08-13 12:36:03,713 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-13 12:36:03,713 - INFO - Attesa di 30 secondi prima della prossima estrazione...
+
+2025-08-13 12:36:33,728 - INFO - --> Esecuzione estrazione di test (12/17)
+2025-08-13 12:36:33,728 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-08-13 12:44:47,212 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-13 12:44:47,213 - INFO - Attesa di 30 secondi prima della prossima estrazione...
+
+2025-08-13 12:45:17,214 - INFO - --> Esecuzione estrazione di test (13/17)
+2025-08-13 12:45:17,215 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-08-13 12:53:39,268 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-13 12:53:39,268 - INFO - Attesa di 30 secondi prima della prossima estrazione...
+
+2025-08-13 12:54:09,275 - INFO - --> Esecuzione estrazione di test (14/17)
+2025-08-13 12:54:09,275 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-08-13 13:02:26,128 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-13 13:02:26,128 - INFO - Attesa di 30 secondi prima della prossima estrazione...
+
+2025-08-13 13:02:56,138 - INFO - --> Esecuzione estrazione di test (15/17)
+2025-08-13 13:02:56,138 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-08-13 13:11:28,628 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-13 13:11:28,628 - INFO - Attesa di 30 secondi prima della prossima estrazione...
+
+2025-08-13 13:11:58,633 - INFO - --> Esecuzione estrazione di test (16/17)
+2025-08-13 13:11:58,633 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-08-13 13:20:01,596 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-13 13:20:01,596 - INFO - Attesa di 30 secondi prima della prossima estrazione...
+
+2025-08-13 13:20:31,599 - INFO - --> Esecuzione estrazione di test (17/17)
+2025-08-13 13:20:31,599 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-08-13 13:28:44,244 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-13 13:28:44,244 - INFO - 
+Simulazione delle estrazioni completata.
+2025-08-13 13:28:44,244 - INFO - ------------------------------------------------------
+2025-08-13 13:28:44,244 - INFO - --> Avvio del processo finale di pulizia e unione
+2025-08-13 13:28:44,244 - ERROR - SCRIPT NON TROVATO: Impossibile trovare 'pulisci_giornaliere.py'.
+2025-08-13 13:28:44,244 - INFO - --- AVVIO SCRIPT: pulisci_bot.py ---
+2025-08-13 13:28:46,531 - INFO - --- FINE SCRIPT: pulisci_bot.py completato con successo. ---
+2025-08-13 13:28:46,532 - INFO - --- AVVIO SCRIPT: unione_finale.py ---
+2025-08-13 13:28:47,181 - INFO - --- FINE SCRIPT: unione_finale.py completato con successo. ---
+2025-08-13 13:28:47,182 - INFO - 
+======================================================
+2025-08-13 13:28:47,182 - INFO -   TEST RAPIDO COMPLETATO
+2025-08-13 13:28:47,182 - INFO - ======================================================

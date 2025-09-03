@@ -1,0 +1,187 @@
+2025-07-09 17:27:45,648 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-07-09 17:27:46,176 - INFO - Tutti i file sorgente sono stati caricati con successo.
+2025-07-09 17:27:46,181 - INFO - Inizio unione. Partenza da Giornaliera Pulita.
+2025-07-09 17:27:46,189 - INFO - Unita Tipologia Nave.
+2025-07-09 17:35:46,472 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-07-09 17:35:46,765 - INFO - Tutti i file sorgente sono stati caricati con successo.
+2025-07-09 17:35:46,765 - INFO - Inizio armonizzazione colonne...
+2025-07-09 17:37:15,739 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-07-09 17:37:16,043 - INFO - Tutti i file sorgente sono stati caricati con successo.
+2025-07-09 17:37:16,043 - INFO - Inizio armonizzazione colonne...
+2025-07-09 17:37:16,050 - INFO - Inizio unione. Partenza da Giornaliera Pulita.
+2025-07-09 17:37:16,054 - INFO - Unita Tipologia Nave.
+2025-07-09 17:37:16,060 - INFO - Uniti dati dal Bot (Prezzo, Operatore).
+2025-07-09 17:37:16,152 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_09-07-2025.xlsx
+2025-07-09 17:37:16,152 - INFO - ================== FINE SCRIPT UNIONE FINALE ===================
+
+2025-07-09 17:47:20,055 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-07-09 17:47:20,369 - INFO - Tutti i file sorgente sono stati caricati con successo.
+2025-07-09 17:47:20,369 - INFO - Inizio armonizzazione colonne e dati...
+2025-07-09 17:47:20,374 - INFO - Inizio unione. Partenza da Giornaliera Pulita.
+2025-07-09 17:47:20,377 - INFO - Unita Tipologia Nave.
+2025-07-09 17:47:20,379 - INFO - Uniti dati dal Bot (Prezzo, Operatore).
+2025-07-09 17:47:26,522 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-07-09 17:47:26,805 - INFO - Tutti i file sorgente sono stati caricati con successo.
+2025-07-09 17:47:26,805 - INFO - Inizio armonizzazione colonne e dati...
+2025-07-09 17:47:26,805 - INFO - Inizio unione. Partenza da Giornaliera Pulita.
+2025-07-09 17:47:26,819 - INFO - Unita Tipologia Nave.
+2025-07-09 17:47:26,821 - INFO - Uniti dati dal Bot (Prezzo, Operatore).
+2025-07-09 17:48:52,520 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-07-09 17:48:52,809 - INFO - Tutti i file sorgente sono stati caricati con successo.
+2025-07-09 17:48:52,809 - INFO - Inizio armonizzazione colonne e dati...
+2025-07-09 17:48:52,809 - INFO - Inizio unione. Partenza da Giornaliera Pulita.
+2025-07-09 17:48:52,809 - INFO - Unita Tipologia Nave.
+2025-07-09 17:48:52,821 - INFO - Uniti dati dal Bot (Prezzo, Operatore).
+2025-07-09 17:48:52,882 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_09-07-2025.xlsx
+2025-07-09 17:48:52,882 - INFO - ================== FINE SCRIPT UNIONE FINALE ===================
+
+2025-07-09 17:51:14,834 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-07-09 17:51:15,126 - INFO - Tutti i file sorgente sono stati caricati con successo.
+2025-07-09 17:51:15,126 - INFO - Inizio armonizzazione colonne e dati...
+2025-07-09 17:51:15,132 - INFO - Inizio unione. Partenza da Giornaliera Pulita.
+2025-07-09 17:51:15,134 - INFO - Unita Tipologia Nave.
+2025-07-09 17:51:15,136 - INFO - Uniti dati dal Bot (Prezzo, Operatore).
+2025-07-09 17:51:15,200 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_09-07-2025.xlsx
+2025-07-09 17:51:15,200 - INFO - ================== FINE SCRIPT UNIONE FINALE ===================
+
+2025-07-09 17:51:25,466 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-07-09 17:51:25,953 - INFO - Tutti i file sorgente sono stati caricati con successo.
+2025-07-09 17:51:25,953 - INFO - Inizio armonizzazione colonne e dati...
+2025-07-09 17:51:25,953 - INFO - Inizio unione. Partenza da Giornaliera Pulita.
+2025-07-09 17:51:25,969 - INFO - Unita Tipologia Nave.
+2025-07-09 17:51:25,971 - INFO - Uniti dati dal Bot (Prezzo, Operatore).
+2025-07-09 17:51:26,044 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_09-07-2025.xlsx
+2025-07-09 17:51:26,045 - INFO - ================== FINE SCRIPT UNIONE FINALE ===================
+
+2025-07-09 17:57:10,370 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-07-09 17:57:10,666 - INFO - Tutti i file sorgente sono stati caricati con successo.
+2025-07-09 17:57:10,666 - INFO - Inizio armonizzazione colonne e dati...
+2025-07-09 17:57:10,671 - INFO - Inizio unione. Partenza da Giornaliera Pulita.
+2025-07-09 17:57:10,677 - INFO - Unita Tipologia Nave.
+2025-07-09 17:57:10,681 - INFO - Uniti dati dal Bot (Prezzo, Operatore).
+2025-07-09 17:57:10,770 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_09-07-2025.xlsx
+2025-07-09 17:57:10,770 - INFO - ================== FINE SCRIPT UNIONE FINALE ===================
+
+2025-07-09 17:57:19,737 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-07-09 17:57:20,025 - INFO - Tutti i file sorgente sono stati caricati con successo.
+2025-07-09 17:57:20,025 - INFO - Inizio armonizzazione colonne e dati...
+2025-07-09 17:57:20,025 - INFO - Inizio unione. Partenza da Giornaliera Pulita.
+2025-07-09 17:57:20,034 - INFO - Unita Tipologia Nave.
+2025-07-09 17:57:20,037 - INFO - Uniti dati dal Bot (Prezzo, Operatore).
+2025-07-09 17:57:20,120 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_09-07-2025.xlsx
+2025-07-09 17:57:20,120 - INFO - ================== FINE SCRIPT UNIONE FINALE ===================
+
+2025-07-09 17:58:56,068 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-07-09 17:58:56,371 - INFO - Tutti i file sorgente sono stati caricati con successo.
+2025-07-09 17:58:56,371 - INFO - Inizio armonizzazione colonne e dati...
+2025-07-09 17:58:56,377 - INFO - Inizio unione. Partenza da Giornaliera Pulita.
+2025-07-09 17:58:56,378 - INFO - Unita Tipologia Nave.
+2025-07-09 17:58:56,380 - INFO - Uniti dati dal Bot (Prezzo, Operatore).
+2025-07-09 17:58:56,473 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_09-07-2025.xlsx
+2025-07-09 17:58:56,473 - INFO - ================== FINE SCRIPT UNIONE FINALE ===================
+
+2025-07-09 18:04:27,461 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-07-09 18:04:27,758 - INFO - Tutti i file sorgente sono stati caricati con successo.
+2025-07-09 18:04:27,759 - INFO - Inizio armonizzazione colonne e dati...
+2025-07-09 18:04:27,763 - INFO - Inizio unione. Partenza da Giornaliera Pulita.
+2025-07-09 18:04:27,766 - INFO - Unita Tipologia Nave.
+2025-07-09 18:04:27,768 - INFO - Uniti dati dal Bot (Prezzo, Operatore).
+2025-07-09 18:04:27,772 - INFO - Rimosse colonne duplicate dal merge: ['nome nave.1']
+2025-07-09 18:04:27,853 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_09-07-2025.xlsx
+2025-07-09 18:04:27,853 - INFO - ================== FINE SCRIPT UNIONE FINALE ===================
+
+2025-07-16 23:23:32,173 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-07-16 23:23:32,173 - ERROR - ERRORE CRITICO: File necessario non trovato: Giornaliera Pulita al percorso C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Estrazioni_Giornaliere_Pulite\Giornaliera_Pulita_16-07-2025.xlsx
+2025-07-16 23:23:32,173 - INFO - ================== FINE SCRIPT UNIONE FINALE ===================
+
+2025-07-17 23:17:56,314 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-07-17 23:17:56,314 - ERROR - ERRORE CRITICO: File necessario non trovato: Giornaliera Pulita al percorso C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Estrazioni_Giornaliere_Pulite\Giornaliera_Pulita_17-07-2025.xlsx
+2025-07-17 23:17:56,314 - INFO - ================== FINE SCRIPT UNIONE FINALE ===================
+
+2025-07-21 16:34:18,431 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-07-21 16:34:18,431 - ERROR - ERRORE CRITICO: File necessario non trovato: Giornaliera Pulita al percorso C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Estrazioni_Giornaliere_Pulite\Giornaliera_Pulita_21-07-2025.xlsx
+2025-07-21 16:34:18,431 - INFO - ================== FINE SCRIPT UNIONE FINALE ===================
+
+2025-08-12 15:35:21,451 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-12 15:35:21,451 - ERROR - ERRORE CRITICO: File necessario non trovato: Giornaliera Pulita al percorso C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Estrazioni_Giornaliere_Pulite\Giornaliera_Pulita_12-08-2025.xlsx
+2025-08-12 15:35:21,451 - INFO - ================== FINE SCRIPT UNIONE FINALE ===================
+
+2025-08-12 20:05:47,408 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-12 20:05:47,411 - ERROR - ERRORE CRITICO: File necessario non trovato: Giornaliera Pulita al percorso C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Estrazioni_Giornaliere_Pulite\Giornaliera_Pulita_12-08-2025.xlsx
+2025-08-12 20:05:47,411 - INFO - ================== FINE SCRIPT UNIONE FINALE ===================
+
+2025-08-13 09:34:07,537 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-13 09:34:07,537 - ERROR - ERRORE CRITICO: File necessario non trovato: Giornaliera Pulita al percorso C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Estrazioni_Giornaliere_Pulite\Giornaliera_Pulita_13-08-2025.xlsx
+2025-08-13 09:34:07,537 - INFO - ================== FINE SCRIPT UNIONE FINALE ===================
+
+2025-08-13 13:28:47,111 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-13 13:28:47,111 - ERROR - ERRORE CRITICO: File necessario non trovato: Giornaliera Pulita al percorso C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Estrazioni_Giornaliere_Pulite\Giornaliera_Pulita_13-08-2025.xlsx
+2025-08-13 13:28:47,111 - INFO - ================== FINE SCRIPT UNIONE FINALE ===================
+
+2025-08-13 14:13:26,629 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-13 14:13:27,002 - INFO - Tutti i file sorgente sono stati caricati con successo.
+2025-08-13 14:13:27,002 - INFO - Inizio armonizzazione colonne e dati...
+2025-08-13 14:13:27,012 - INFO - Inizio unione. Partenza da Giornaliera Pulita.
+2025-08-13 14:13:27,017 - INFO - Unita Tipologia Nave.
+2025-08-13 14:13:27,019 - INFO - Uniti dati dal Bot (Prezzo, Operatore).
+2025-08-13 14:13:27,022 - INFO - Rimosse colonne duplicate dal merge: ['nome nave.1']
+2025-08-13 14:13:27,222 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_13-08-2025.xlsx
+2025-08-13 14:13:27,222 - INFO - ================== FINE SCRIPT UNIONE FINALE ===================
+
+2025-08-13 14:55:55,830 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-13 14:55:56,383 - INFO - Tutti i file sorgente sono stati caricati con successo.
+2025-08-13 14:55:56,383 - INFO - Inizio armonizzazione colonne e dati...
+2025-08-13 14:57:38,293 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-13 14:57:38,713 - INFO - Tutti i file sorgente sono stati caricati con successo.
+2025-08-13 14:57:38,714 - INFO - Inizio armonizzazione colonne e dati...
+2025-08-13 14:57:38,726 - INFO - Inizio unione. Partenza da Giornaliera Pulita.
+2025-08-13 14:57:38,731 - INFO - Uniti dati dal Bot (Prezzo, Operatore).
+2025-08-13 14:57:38,880 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_13-08-2025.xlsx
+2025-08-13 14:57:38,880 - INFO - ================== FINE SCRIPT UNIONE FINALE ===================
+
+2025-08-13 15:14:12,394 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-13 15:14:12,815 - INFO - Inizio unione.
+2025-08-13 15:14:12,823 - INFO - Uniti dati dal Bot.
+2025-08-13 15:14:12,966 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_13-08-2025.xlsx
+2025-08-13 15:14:30,784 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-13 15:14:31,237 - INFO - Inizio unione.
+2025-08-13 15:14:31,245 - INFO - Uniti dati dal Bot.
+2025-08-13 15:14:31,393 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_13-08-2025.xlsx
+2025-08-13 15:20:20,341 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-13 15:20:20,769 - INFO - Inizio unione. Partenza da Giornaliera Pulita.
+2025-08-13 15:20:20,776 - INFO - Uniti dati dal Bot.
+2025-08-13 15:20:20,862 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_13-08-2025.xlsx
+2025-08-13 15:20:45,851 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-13 15:20:46,272 - INFO - Inizio unione. Partenza da Giornaliera Pulita.
+2025-08-13 15:20:46,278 - INFO - Uniti dati dal Bot.
+2025-08-13 15:20:46,363 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_13-08-2025.xlsx
+2025-08-13 15:26:39,787 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-13 15:26:40,207 - INFO - Tutti i file sorgente sono stati caricati.
+2025-08-13 15:26:40,222 - INFO - Inizio armonizzazione...
+2025-08-13 15:26:40,229 - INFO - Inizio unione...
+2025-08-13 15:26:40,234 - INFO - Unite le specifiche della nave.
+2025-08-13 15:26:40,238 - INFO - Uniti dati dal Bot.
+2025-08-13 15:26:40,728 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_13-08-2025.xlsx
+2025-08-26 09:47:29,799 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-26 09:47:29,799 - ERROR - ERRORE CRITICO nel caricamento file: [Errno 2] No such file or directory: 'C:\\Users\\security\\Documents\\Codice\\Python\\Screperino\\File_Output\\Estrazioni_Giornaliere_Pulite\\Giornaliera_Pulita_26-08-2025.xlsx'
+2025-08-27 09:51:31,630 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-27 09:51:31,630 - ERROR - ERRORE CRITICO nel caricamento file: [Errno 2] No such file or directory: 'C:\\Users\\security\\Documents\\Codice\\Python\\Screperino\\File_Output\\Estrazioni_Giornaliere_Pulite\\Giornaliera_Pulita_27-08-2025.xlsx'
+2025-08-27 23:30:09,576 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-27 23:30:09,887 - ERROR - ERRORE CRITICO nel caricamento file: [Errno 2] No such file or directory: 'C:\\Users\\security\\Documents\\Codice\\Python\\Screperino\\File_Output\\Bot_Pulito\\Bot_Pulito_27-08-2025.xlsx'
+2025-08-28 23:30:05,260 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-28 23:30:05,601 - ERROR - ERRORE CRITICO nel caricamento file: [Errno 2] No such file or directory: 'C:\\Users\\security\\Documents\\Codice\\Python\\Screperino\\File_Output\\Bot_Pulito\\Bot_Pulito_28-08-2025.xlsx'
+2025-08-29 23:30:05,520 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-29 23:30:05,799 - ERROR - ERRORE CRITICO nel caricamento file: [Errno 2] No such file or directory: 'C:\\Users\\security\\Documents\\Codice\\Python\\Screperino\\File_Output\\Bot_Pulito\\Bot_Pulito_29-08-2025.xlsx'
+2025-08-30 23:30:05,735 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-30 23:30:06,067 - ERROR - ERRORE CRITICO nel caricamento file: [Errno 2] No such file or directory: 'C:\\Users\\security\\Documents\\Codice\\Python\\Screperino\\File_Output\\Bot_Pulito\\Bot_Pulito_30-08-2025.xlsx'
+2025-08-31 23:30:06,019 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-08-31 23:30:06,330 - ERROR - ERRORE CRITICO nel caricamento file: [Errno 2] No such file or directory: 'C:\\Users\\security\\Documents\\Codice\\Python\\Screperino\\File_Output\\Bot_Pulito\\Bot_Pulito_31-08-2025.xlsx'
+2025-09-01 23:30:05,910 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-09-01 23:30:06,227 - ERROR - ERRORE CRITICO nel caricamento file: [Errno 2] No such file or directory: 'C:\\Users\\security\\Documents\\Codice\\Python\\Screperino\\File_Output\\Bot_Pulito\\Bot_Pulito_01-09-2025.xlsx'
+2025-09-02 23:30:06,711 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-09-02 23:30:07,402 - INFO - Tutti i file sorgente sono stati caricati.
+2025-09-02 23:30:07,402 - INFO - Inizio armonizzazione...
+2025-09-02 23:30:07,410 - INFO - Inizio unione...
+2025-09-02 23:30:07,422 - INFO - Unite le specifiche della nave.
+2025-09-02 23:30:07,428 - INFO - Uniti dati dal Bot.
+2025-09-02 23:30:08,527 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_02-09-2025.xlsx

@@ -1,0 +1,365 @@
+2025-07-02 16:24:13,683 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-02 16:24:13,683 - INFO - Nessun nuovo file del bot da processare trovato.
+2025-07-02 16:24:13,683 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-02 16:32:29,611 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-02 16:32:29,611 - INFO - Trovati 1 nuovi file da analizzare.
+2025-07-02 16:32:30,020 - WARNING - AVVISO: Colonna 'Data Partenza' non trovata nel file Bot 06172025_1318.xlsx. File saltato.
+2025-07-02 16:32:30,020 - WARNING - Nessun dato trovato per la data 02-07-2025 nei nuovi file.
+2025-07-02 16:32:30,020 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-02 16:33:22,052 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-02 16:33:22,052 - INFO - Trovati 1 nuovi file da analizzare.
+2025-07-02 16:33:22,052 - ERROR - Impossibile processare il file ~$Bot 06172025_1318.xlsx. Errore: [Errno 13] Permission denied: 'C:\\Users\\security\\Documents\\Codice\\Python\\Screperino\\File_Input\\Bot\\~$Bot 06172025_1318.xlsx'
+2025-07-02 16:33:22,052 - WARNING - Nessun dato trovato per la data 02-07-2025 nei nuovi file.
+2025-07-02 16:33:22,052 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-02 16:40:24,134 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-02 16:40:24,134 - INFO - Nessun nuovo file del bot da processare trovato.
+2025-07-02 16:40:24,134 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-02 16:40:30,900 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-02 16:40:30,900 - INFO - Nessun nuovo file del bot da processare trovato.
+2025-07-02 16:40:30,900 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-02 16:40:33,956 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-02 16:40:33,956 - INFO - Nessun nuovo file del bot da processare trovato.
+2025-07-02 16:40:33,957 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-02 16:40:42,803 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-02 16:40:42,805 - INFO - Nessun nuovo file del bot da processare trovato.
+2025-07-02 16:40:42,805 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-02 16:44:27,677 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-02 16:44:27,677 - INFO - Trovati 1 nuovi file da analizzare.
+2025-07-02 16:44:27,899 - WARNING - AVVISO: Colonne richieste non trovate nel file Bot 06172025_1318.xlsx. File saltato.
+2025-07-02 16:44:27,899 - WARNING - Nessun dato trovato per la data 02-07-2025 nei nuovi file.
+2025-07-02 16:44:27,899 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-02 16:46:04,718 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-02 16:46:04,718 - INFO - Trovati 1 nuovi file da analizzare.
+2025-07-02 16:46:04,961 - WARNING - AVVISO: Colonne richieste non trovate nel foglio 'TRATTE' del file Bot 06172025_1318.xlsx. File saltato.
+2025-07-02 16:46:04,961 - WARNING - Nessun dato trovato per la data 02-07-2025 nei nuovi file.
+2025-07-02 16:46:04,961 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-02 16:51:47,598 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-02 16:51:47,599 - INFO - Trovati 1 nuovi file da analizzare.
+2025-07-02 16:51:47,819 - WARNING - AVVISO: Colonne richieste non trovate nel foglio 'TRATTE' del file Bot 06172025_1318.xlsx. File saltato.
+2025-07-02 16:51:47,819 - WARNING - Nessun dato trovato per la data 02-07-2025 nei nuovi file.
+2025-07-02 16:51:47,819 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-02 16:53:18,498 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-02 16:53:18,510 - INFO - Trovati 1 nuovi file da analizzare.
+2025-07-02 16:53:18,721 - WARNING - AVVISO: Colonne richieste non trovate nel file Bot 06172025_1318.xlsx dopo la pulizia. File saltato.
+2025-07-02 16:53:18,723 - WARNING - Nessun dato trovato per la data 02-07-2025 nei nuovi file.
+2025-07-02 16:53:18,723 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-02 16:58:29,160 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-02 16:58:29,160 - INFO - Trovati 1 nuovi file da analizzare.
+2025-07-02 16:58:29,385 - WARNING - Nessun dato trovato per la data 02-07-2025 nei nuovi file.
+2025-07-02 16:58:29,385 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-02 16:58:39,597 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-02 16:58:39,597 - INFO - Trovati 1 nuovi file da analizzare.
+2025-07-02 16:58:39,829 - WARNING - Nessun dato trovato per la data 02-07-2025 nei nuovi file.
+2025-07-02 16:58:39,830 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-04 15:14:13,229 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-04 15:14:13,229 - INFO - Trovati 1 nuovi file da analizzare.
+2025-07-04 15:14:13,896 - WARNING - Nessun dato trovato per la data 04-07-2025 nei nuovi file.
+2025-07-04 15:14:13,896 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-04 15:15:57,164 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-04 15:15:57,164 - INFO - Trovati 5 nuovi file da analizzare.
+2025-07-04 15:15:58,504 - WARNING - Nessun dato trovato per la data 04-07-2025 nei nuovi file.
+2025-07-04 15:15:58,504 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-04 15:16:09,277 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-04 15:16:09,277 - INFO - Nessun nuovo file del bot da processare trovato.
+2025-07-04 15:16:09,277 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-04 15:20:52,014 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-04 15:20:52,014 - INFO - Nessun nuovo file del bot da processare trovato.
+2025-07-04 15:20:52,014 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-04 15:21:30,186 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-04 15:21:30,188 - INFO - Nessun nuovo file del bot da processare trovato.
+2025-07-04 15:21:30,188 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-04 15:21:38,558 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-04 15:21:38,558 - INFO - Nessun nuovo file del bot da processare trovato.
+2025-07-04 15:21:38,558 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-04 15:29:59,709 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-04 15:29:59,709 - INFO - Nessun nuovo file del bot da processare trovato.
+2025-07-04 15:29:59,709 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-04 15:47:42,352 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-04 15:47:42,352 - INFO - Nessun nuovo file del bot da processare trovato.
+2025-07-04 15:47:42,352 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-04 15:48:05,536 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-04 15:48:05,536 - INFO - Trovati 6 nuovi file da analizzare.
+2025-07-04 15:48:07,077 - WARNING - Nessun dato trovato per la data 04-07-2025 nei nuovi file.
+2025-07-04 15:48:07,077 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-04 16:31:22,265 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-04 16:31:22,276 - INFO - Nessun nuovo file del bot da processare trovato.
+2025-07-04 16:31:22,276 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-04 16:31:49,263 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-04 16:31:49,263 - INFO - Trovati 6 nuovi file da analizzare.
+2025-07-04 16:31:49,976 - ERROR - Impossibile processare il file Bot 06302025_1835.xlsx. Errore: '0      08/07/2025
+1      07/07/2025
+2      07/07/2025
+3      07/07/2025
+4      08/07/2025
+          ...    
+717    08/07/2025
+718    08/07/2025
+719    08/07/2025
+720    08/07/2025
+721    08/07/2025
+Name: 0, Length: 722, dtype: object' is not compatible with origin='1899-12-30'; it must be numeric with a unit specified
+2025-07-04 16:31:50,144 - ERROR - Impossibile processare il file Bot 07032025_1733.xlsx. Errore: '0      12/07/2025
+1      11/07/2025
+2      11/07/2025
+3      11/07/2025
+4      12/07/2025
+          ...    
+603    12/07/2025
+604    12/07/2025
+605    12/07/2025
+606    12/07/2025
+607    12/07/2025
+Name: 0, Length: 608, dtype: object' is not compatible with origin='1899-12-30'; it must be numeric with a unit specified
+2025-07-04 16:31:50,312 - ERROR - Impossibile processare il file Bot 06262025_1609.xlsx. Errore: '0      06/07/2025
+1      05/07/2025
+2      05/07/2025
+3      06/07/2025
+4      06/07/2025
+          ...    
+711    06/07/2025
+712    06/07/2025
+713    06/07/2025
+714    06/07/2025
+715    06/07/2025
+Name: 0, Length: 716, dtype: object' is not compatible with origin='1899-12-30'; it must be numeric with a unit specified
+2025-07-04 16:31:50,492 - ERROR - Impossibile processare il file Bot 06192025_1803.xlsx. Errore: '0      03/07/2025
+1      03/07/2025
+2      03/07/2025
+3      03/07/2025
+4      03/07/2025
+          ...    
+712    04/07/2025
+713    04/07/2025
+714    04/07/2025
+715    04/07/2025
+716    04/07/2025
+Name: 0, Length: 717, dtype: object' is not compatible with origin='1899-12-30'; it must be numeric with a unit specified
+2025-07-04 16:31:50,651 - ERROR - Impossibile processare il file Bot 06172025_1318.xlsx. Errore: '0      01/07/2025
+1      02/07/2025
+2      01/07/2025
+3      01/07/2025
+4      02/07/2025
+          ...    
+694    02/07/2025
+695    02/07/2025
+696    02/07/2025
+697    02/07/2025
+698    02/07/2025
+Name: 0, Length: 699, dtype: object' is not compatible with origin='1899-12-30'; it must be numeric with a unit specified
+2025-07-04 16:31:50,851 - ERROR - Impossibile processare il file Bot 07012025_1356.xlsx. Errore: '0      10/07/2025
+1      09/07/2025
+2      09/07/2025
+3      10/07/2025
+4      10/07/2025
+          ...    
+720    10/07/2025
+721    10/07/2025
+722    10/07/2025
+723    10/07/2025
+724    10/07/2025
+Name: 0, Length: 725, dtype: object' is not compatible with origin='1899-12-30'; it must be numeric with a unit specified
+2025-07-04 16:31:50,851 - WARNING - Nessun dato trovato per la data 04-07-2025 nei nuovi file.
+2025-07-04 16:31:50,859 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-04 16:34:28,965 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-04 16:34:28,965 - INFO - Nessun nuovo file del bot da processare trovato.
+2025-07-04 16:34:28,965 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-04 16:34:40,128 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-04 16:34:40,128 - INFO - Trovati 6 nuovi file da analizzare.
+2025-07-04 16:34:41,049 - INFO - Trovate 380 righe per la data 04-07-2025 nel file Bot 06192025_1803.xlsx.
+2025-07-04 16:34:41,562 - INFO - Righe totali trovate prima della pulizia: 380
+2025-07-04 16:34:41,562 - INFO - Numero finale di righe uniche: 359
+2025-07-04 16:34:41,672 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Bot_Pulito\Bot_Pulito_04-07-2025.xlsx
+2025-07-04 16:34:41,681 - INFO - Registro dei file processati aggiornato. Totale file nel registro: 6
+2025-07-04 16:34:41,682 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-04 18:01:07,157 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-04 18:01:07,159 - INFO - Trovati 6 nuovi file da analizzare.
+2025-07-04 18:01:08,131 - WARNING - AVVISO: Colonne 'data tratta' o 'orario partenza' non trovate nel file Bot 06192025_1803.xlsx dopo la pulizia. File saltato.
+2025-07-04 18:01:08,373 - WARNING - AVVISO: Colonne 'data tratta' o 'orario partenza' non trovate nel file Bot 06302025_1835.xlsx dopo la pulizia. File saltato.
+2025-07-04 18:01:08,531 - WARNING - AVVISO: Colonne 'data tratta' o 'orario partenza' non trovate nel file Bot 07032025_1733.xlsx dopo la pulizia. File saltato.
+2025-07-04 18:01:08,718 - WARNING - AVVISO: Colonne 'data tratta' o 'orario partenza' non trovate nel file Bot 06172025_1318.xlsx dopo la pulizia. File saltato.
+2025-07-04 18:01:08,956 - WARNING - AVVISO: Colonne 'data tratta' o 'orario partenza' non trovate nel file Bot 07012025_1356.xlsx dopo la pulizia. File saltato.
+2025-07-04 18:01:09,205 - WARNING - AVVISO: Colonne 'data tratta' o 'orario partenza' non trovate nel file Bot 06262025_1609.xlsx dopo la pulizia. File saltato.
+2025-07-04 18:01:09,205 - WARNING - Nessun dato trovato per la data 04-07-2025 nei nuovi file.
+2025-07-04 18:01:09,205 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-09 12:56:30,881 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-09 12:56:30,888 - INFO - Nessun nuovo file del bot da processare trovato.
+2025-07-09 12:56:30,888 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-09 13:00:31,960 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-09 13:00:31,975 - INFO - Trovati 6 file da analizzare per la data 09-07-2025.
+2025-07-09 13:00:32,669 - WARNING - Nessun dato trovato per la data 09-07-2025 in nessun file.
+2025-07-09 13:00:32,669 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-09 13:05:15,412 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-09 13:05:15,412 - INFO - Trovati 6 file da analizzare per la data 09-07-2025.
+2025-07-09 13:05:15,985 - WARNING - Nessun dato trovato per la data 09-07-2025 in nessun file.
+2025-07-09 13:05:15,985 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-09 14:15:00,435 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-09 14:15:00,435 - INFO - Trovati 6 file da analizzare per la data 09-07-2025.
+2025-07-09 14:15:00,682 - WARNING - AVVISO: Colonne richieste non trovate nel file Bot 06172025_1318.xlsx. File saltato.
+2025-07-09 14:15:00,742 - WARNING - AVVISO: Colonne richieste non trovate nel file Bot 06192025_1803.xlsx. File saltato.
+2025-07-09 14:15:00,798 - WARNING - AVVISO: Colonne richieste non trovate nel file Bot 06262025_1609.xlsx. File saltato.
+2025-07-09 14:15:00,883 - WARNING - AVVISO: Colonne richieste non trovate nel file Bot 06302025_1835.xlsx. File saltato.
+2025-07-09 14:15:00,948 - WARNING - AVVISO: Colonne richieste non trovate nel file Bot 07012025_1356.xlsx. File saltato.
+2025-07-09 14:15:00,998 - WARNING - AVVISO: Colonne richieste non trovate nel file Bot 07032025_1733.xlsx. File saltato.
+2025-07-09 14:15:00,998 - WARNING - Nessun dato trovato per la data 09-07-2025 in nessun file.
+2025-07-09 14:15:00,998 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-09 14:25:51,882 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-09 14:25:51,882 - INFO - Trovati 6 file da analizzare per la data 12-07-2025.
+2025-07-09 14:25:52,449 - INFO - Trovate 218 righe nel file Bot 07032025_1733.xlsx.
+2025-07-09 14:25:52,467 - INFO - Righe totali trovate prima della pulizia: 218
+2025-07-09 14:25:52,470 - INFO - Numero finale di righe uniche: 218
+2025-07-09 14:25:52,516 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Bot_Pulito\Bot_Pulito_12-07-2025.xlsx
+2025-07-09 14:25:52,516 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-09 14:31:37,281 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-09 14:31:37,281 - INFO - Trovati 6 file da analizzare per la data 09-07-2025.
+2025-07-09 14:31:37,796 - INFO - Trovate 290 righe nel file Bot 07012025_1356.xlsx.
+2025-07-09 14:31:37,853 - INFO - Righe totali trovate prima della pulizia: 290
+2025-07-09 14:31:37,856 - INFO - Numero finale di righe uniche: 290
+2025-07-09 14:31:37,899 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Bot_Pulito\Bot_Pulito_09-07-2025.xlsx
+2025-07-09 14:31:37,899 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-15 12:41:35,623 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-15 12:41:35,623 - INFO - Trovati 6 file da analizzare per la data 15-07-2025.
+2025-07-15 12:41:36,284 - WARNING - Nessun dato trovato per la data 15-07-2025 in nessun file.
+2025-07-15 12:41:36,284 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-16 23:23:29,790 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-16 23:23:29,790 - INFO - Trovati 12 file da analizzare per la data 16-07-2025.
+2025-07-16 23:23:30,714 - INFO - Trovate 258 righe nel file Bot 07092025_1759.xlsx.
+2025-07-16 23:23:31,334 - INFO - Righe totali trovate prima della pulizia: 258
+2025-07-16 23:23:31,343 - INFO - Numero finale di righe uniche: 258
+2025-07-16 23:23:31,385 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Bot_Pulito\Bot_Pulito_16-07-2025.xlsx
+2025-07-16 23:23:31,385 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-17 23:17:53,732 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-17 23:17:53,732 - INFO - Trovati 12 file da analizzare per la data 17-07-2025.
+2025-07-17 23:17:54,839 - INFO - Trovate 269 righe nel file Bot 07112025_1010.xlsx.
+2025-07-17 23:17:55,371 - INFO - Righe totali trovate prima della pulizia: 269
+2025-07-17 23:17:55,373 - INFO - Numero finale di righe uniche: 269
+2025-07-17 23:17:55,413 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Bot_Pulito\Bot_Pulito_17-07-2025.xlsx
+2025-07-17 23:17:55,413 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-07-21 16:34:16,317 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-07-21 16:34:16,327 - INFO - Trovati 12 file da analizzare per la data 21-07-2025.
+2025-07-21 16:34:17,597 - INFO - Trovate 72 righe nel file Bot 07152025_1417.xlsx.
+2025-07-21 16:34:17,660 - INFO - Trovate 300 righe nel file Bot 07152025_1846.xlsx.
+2025-07-21 16:34:17,660 - INFO - Righe totali trovate prima della pulizia: 372
+2025-07-21 16:34:17,672 - INFO - Numero finale di righe uniche: 313
+2025-07-21 16:34:17,718 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Bot_Pulito\Bot_Pulito_21-07-2025.xlsx
+2025-07-21 16:34:17,718 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-08-12 15:35:16,927 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-08-12 15:35:16,931 - INFO - Trovati 20 file da analizzare per la data 12-08-2025.
+2025-08-12 15:35:18,188 - INFO - Trovate 305 righe nel file Bot 07252025_2029.xlsx.
+2025-08-12 15:35:18,251 - INFO - Trovate 322 righe nel file Bot 08012025_1217.xlsx.
+2025-08-12 15:35:18,600 - INFO - Righe totali trovate prima della pulizia: 627
+2025-08-12 15:35:18,610 - INFO - Numero finale di righe uniche: 399
+2025-08-12 15:35:18,661 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Bot_Pulito\Bot_Pulito_12-08-2025.xlsx
+2025-08-12 15:35:18,661 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-08-12 20:05:44,194 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-08-12 20:05:44,194 - INFO - Trovati 20 file da analizzare per la data 12-08-2025.
+2025-08-12 20:05:45,673 - INFO - Trovate 305 righe nel file Bot 07252025_2029.xlsx.
+2025-08-12 20:05:45,790 - INFO - Trovate 322 righe nel file Bot 08012025_1217.xlsx.
+2025-08-12 20:05:46,491 - INFO - Righe totali trovate prima della pulizia: 627
+2025-08-12 20:05:46,513 - INFO - Numero finale di righe uniche: 399
+2025-08-12 20:05:46,595 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Bot_Pulito\Bot_Pulito_12-08-2025.xlsx
+2025-08-12 20:05:46,596 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-08-13 09:32:13,790 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-08-13 09:32:13,790 - INFO - Trovati 20 file da analizzare per la data 13-08-2025.
+2025-08-13 09:32:15,379 - INFO - Trovate 288 righe nel file Bot 07252025_2029.xlsx.
+2025-08-13 09:32:15,474 - INFO - Trovate 316 righe nel file Bot 08012025_1638.xlsx.
+2025-08-13 09:32:15,763 - INFO - Righe totali trovate prima della pulizia: 604
+2025-08-13 09:32:15,782 - INFO - Numero finale di righe uniche: 381
+2025-08-13 09:32:15,848 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Bot_Pulito\Bot_Pulito_13-08-2025.xlsx
+2025-08-13 09:32:15,848 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-08-13 13:28:44,822 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-08-13 13:28:44,826 - INFO - Trovati 20 file da analizzare per la data 13-08-2025.
+2025-08-13 13:28:45,981 - INFO - Trovate 288 righe nel file Bot 07252025_2029.xlsx.
+2025-08-13 13:28:46,114 - INFO - Trovate 316 righe nel file Bot 08012025_1638.xlsx.
+2025-08-13 13:28:46,394 - INFO - Righe totali trovate prima della pulizia: 604
+2025-08-13 13:28:46,394 - INFO - Numero finale di righe uniche: 381
+2025-08-13 13:28:46,447 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Bot_Pulito\Bot_Pulito_13-08-2025.xlsx
+2025-08-13 13:28:46,447 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-08-26 09:47:26,798 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-08-26 09:47:26,798 - INFO - Trovati 20 file da analizzare per la data 26-08-2025.
+2025-08-26 09:47:29,164 - WARNING - Nessun dato trovato per la data 26-08-2025 in nessun file.
+2025-08-26 09:47:29,164 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-08-27 09:51:29,495 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-08-27 09:51:29,495 - INFO - Trovati 20 file da analizzare per la data 27-08-2025.
+2025-08-27 09:51:30,996 - WARNING - Nessun dato trovato per la data 27-08-2025 in nessun file.
+2025-08-27 09:51:30,996 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-08-27 23:30:05,639 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-08-27 23:30:05,639 - INFO - Trovati 20 file da analizzare per la data 27-08-2025.
+2025-08-27 23:30:08,602 - WARNING - Nessun dato trovato per la data 27-08-2025 in nessun file.
+2025-08-27 23:30:08,602 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-08-28 23:30:02,995 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-08-28 23:30:02,995 - INFO - Trovati 20 file da analizzare per la data 28-08-2025.
+2025-08-28 23:30:04,625 - WARNING - Nessun dato trovato per la data 28-08-2025 in nessun file.
+2025-08-28 23:30:04,625 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-08-29 23:30:03,281 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-08-29 23:30:03,281 - INFO - Trovati 20 file da analizzare per la data 29-08-2025.
+2025-08-29 23:30:04,843 - WARNING - Nessun dato trovato per la data 29-08-2025 in nessun file.
+2025-08-29 23:30:04,843 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-08-30 23:30:03,613 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-08-30 23:30:03,629 - INFO - Trovati 20 file da analizzare per la data 30-08-2025.
+2025-08-30 23:30:05,104 - WARNING - Nessun dato trovato per la data 30-08-2025 in nessun file.
+2025-08-30 23:30:05,104 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-08-31 23:30:03,956 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-08-31 23:30:03,956 - INFO - Trovati 20 file da analizzare per la data 31-08-2025.
+2025-08-31 23:30:05,405 - WARNING - Nessun dato trovato per la data 31-08-2025 in nessun file.
+2025-08-31 23:30:05,405 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-09-01 23:30:03,828 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-01 23:30:03,844 - INFO - Trovati 20 file da analizzare per la data 01-09-2025.
+2025-09-01 23:30:05,303 - WARNING - Nessun dato trovato per la data 01-09-2025 in nessun file.
+2025-09-01 23:30:05,303 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-09-02 23:30:03,864 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-02 23:30:03,864 - INFO - Trovati 25 file da analizzare per la data 02-09-2025.
+2025-09-02 23:30:05,562 - INFO - Trovate 314 righe nel file Bot 08282025_1918.xlsx.
+2025-09-02 23:30:05,926 - INFO - Righe totali trovate prima della pulizia: 314
+2025-09-02 23:30:05,926 - INFO - Numero finale di righe uniche: 314
+2025-09-02 23:30:05,974 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Bot_Pulito\Bot_Pulito_02-09-2025.xlsx
+2025-09-02 23:30:05,974 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+

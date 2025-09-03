@@ -1,0 +1,96 @@
+Progetto di Automazione per il Monitoraggio di Dati Navali
+Descrizione
+Questo progetto è un sistema di automazione completo, scritto in Python, progettato per raccogliere, pulire, arricchire e consolidare dati di viaggio di navi da diverse fonti. Il sistema opera in un ciclo giornaliero, producendo un report finale in formato Excel chiamato MASTER.
+
+Funzionamento del Flusso
+Il sistema è orchestrato da un gestore principale (main_gestore.py) che automatizza il seguente flusso di lavoro ogni giorno:
+
+Raccolta Dati Oraria: Per tutto il giorno, uno scraper estrae dati aggiornati da un sito web di monitoraggio navale.
+
+Pulizia Dati Scraper: A fine giornata, tutti i dati raccolti vengono consolidati e puliti.
+
+Pulizia Dati Bot: Contemporaneamente, i dati provenienti da un'altra fonte (il "bot") vengono filtrati e puliti per il giorno corrente.
+
+Unione Finale: I dati puliti da entrambe le fonti vengono uniti con file statici di supporto (tipologia navi, decodifica porti) per creare il report MASTER finale.
+
+Componenti del Progetto
+Il sistema è composto da 5 script principali, ognuno con un ruolo specifico.
+
+1. estrazione_giornaliera.py
+Scopo: Lo scraper che raccoglie i dati grezzi.
+
+Logica di Funzionamento:
+
+Legge un file Excel di input (MMSI.xlsx) che deve contenere una colonna MMSI.
+
+Per ogni MMSI, costruisce un URL specifico nel formato https://www.myshiptracking.com/vessels/vessel-mmsi-{mmsi}-imo-0.
+
+Visita la pagina e analizza l'HTML, cercando la tabella dei viaggi recenti (identificata dalla sezione id='ft-lasttrips' e dalla tabella class='myst-table').
+
+Estrae i dati solo dell'ultimo viaggio (la prima riga della tabella).
+
+Separa le informazioni di data e ora e recupera la durata del viaggio da attributi specifici dell'HTML.
+
+Salva ogni estrazione in un nuovo file Excel con timestamp (Estrazione_Giornaliera_...xlsx) all'interno di una cartella creata per il giorno corrente (es. Estrazioni_13_08_2025).
+
+2. pulisci_giornaliere.py
+Scopo: Il pulitore dei dati raccolti dallo scraper.
+
+Logica di Funzionamento:
+
+Identifica la cartella delle estrazioni per una data specifica (di default, il giorno corrente).
+
+Carica tutti i file Excel presenti in quella cartella e li unisce in un'unica tabella.
+
+Esegue due operazioni di pulizia:
+
+Elimina righe vuote: Rimuove tutte le righe che non contengono alcun dato.
+
+Elimina duplicati: Rimuove tutte le righe che sono identiche al 100%.
+
+Salva il risultato in un unico file Giornaliera_Pulita_GG-MM-AAAA.xlsx.
+
+3. pulisci_bot.py
+Scopo: Il pulitore dei dati provenienti dal bot.
+
+Logica di Funzionamento:
+
+Analizza tutti i file nella cartella di input del bot ogni volta che viene eseguito (non tiene traccia dei file già letti per garantire che i dati per più giorni vengano estratti correttamente da uno stesso file).
+
+Per ogni file, legge il foglio TRATTE.
+
+Filtra per data: La logica chiave è il confronto delle date. Lo script legge la colonna data partenza e la confronta con la data per cui deve processare i dati (di default, il giorno corrente). In questo modo, da un file che contiene dati per più giorni, estrae solo quelli pertinenti.
+
+Unisce tutte le righe trovate, le pulisce (rimuovendo duplicati e righe vuote) e le salva in un unico file Bot_Pulito_GG-MM-AAAA.xlsx.
+
+4. unione_finale.py
+Scopo: L'assemblatore che crea il report MASTER.
+
+Logica di Funzionamento:
+
+Carica i quattro file necessari: Giornaliera_Pulita, Bot_Pulito e i due file statici TIPOLOGIA_NAVE.xlsx e DECODIFICA_FINALE.xlsx.
+
+Armonizzazione: Esegue una pulizia preliminare per standardizzare i nomi delle colonne (es. Origin diventa porto partenza) e i dati testuali (es. i nomi dei porti vengono convertiti in minuscolo e privati di spazi extra per garantire la corrispondenza).
+
+Unione (Merge): Esegue una serie di unioni partendo da Giornaliera_Pulita:
+
+Join con TIPOLOGIA_NAVE: Usa la colonna mmsi come chiave per aggiungere la tipologia della nave.
+
+Join con DECODIFICA_FINALE: Esegue due join separati, uno su porto partenza e uno su porto arrivo, per aggiungere le nazioni di partenza e arrivo.
+
+Join con Bot_Pulito: Usa una chiave composita (data partenza, porto partenza, porto arrivo) per aggiungere le informazioni del bot, come prezzo e operatore.
+
+Salva il DataFrame finale e completo nel file MASTER_GG-MM-AAAA.xlsx.
+
+5. main_gestore.py
+Scopo: Il direttore d'orchestra (scheduler) che automatizza l'intero processo.
+
+Logica di Funzionamento:
+
+È uno script progettato per rimanere sempre in esecuzione.
+
+Logica di Avvio: All'avvio, calcola il tempo mancante fino alle prossime 00:05. Si mette in pausa fino a quell'ora, garantendo che il ciclo giornaliero inizi sempre dopo mezzanotte.
+
+Programmazione Oraria: Una volta iniziato il ciclo, usa la libreria schedule per eseguire lo script estrazione_giornaliera.py ogni ora, al minuto :05.
+
+Programmazione Finale: Ha un compito programmato per le 23:15 di ogni giorno, che esegue in sequenza gli script pulisci_giornaliere.py, pulisci_bot.py e unione_finale.py

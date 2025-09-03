@@ -1,0 +1,248 @@
+2025-07-15 11:28:28,506 - INFO - ======================================================
+2025-07-15 11:28:28,506 - INFO -   GESTORE PRINCIPALE AVVIATO
+2025-07-15 11:28:28,506 - INFO -   Data e ora di avvio: 15-07-2025 11:28:28
+2025-07-15 11:28:28,506 - INFO - ======================================================
+2025-07-15 11:28:28,506 - INFO - Programmato: 'compito_estrazione_oraria' ogni ora al minuto 05.
+2025-07-15 11:28:28,506 - INFO - Programmato: 'compito_processo_finale' ogni giorno alle 23:15.
+2025-07-15 12:05:00,920 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-15 12:05:00,924 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-15 12:13:48,880 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-15 14:50:56,787 - INFO - ======================================================
+2025-07-15 14:50:56,787 - INFO -   GESTORE PRINCIPALE AVVIATO
+2025-07-15 14:50:56,787 - INFO -   Data e ora di avvio: 15-07-2025 14:50:56
+2025-07-15 14:50:56,787 - INFO - ======================================================
+2025-07-15 14:50:56,787 - INFO - In attesa fino alle 00:05:00 del 16-07-2025 per iniziare il ciclo di estrazioni.
+2025-07-15 18:09:50,319 - INFO - ======================================================
+2025-07-15 18:09:50,319 - INFO -   GESTORE PRINCIPALE AVVIATO
+2025-07-15 18:09:50,319 - INFO -   Data e ora di avvio: 15-07-2025 18:09:50
+2025-07-15 18:09:50,319 - INFO - ======================================================
+2025-07-15 18:09:50,319 - INFO - In attesa fino alle 00:05:00 del 16-07-2025 per iniziare il ciclo di estrazioni.
+2025-07-15 18:09:53,410 - INFO - ======================================================
+2025-07-15 18:09:53,410 - INFO -   GESTORE PRINCIPALE AVVIATO
+2025-07-15 18:09:53,410 - INFO -   Data e ora di avvio: 15-07-2025 18:09:53
+2025-07-15 18:09:53,410 - INFO - ======================================================
+2025-07-15 18:09:53,410 - INFO - In attesa fino alle 00:05:00 del 16-07-2025 per iniziare il ciclo di estrazioni.
+2025-07-15 18:10:05,904 - INFO - ======================================================
+2025-07-15 18:10:05,904 - INFO -   GESTORE PRINCIPALE AVVIATO
+2025-07-15 18:10:05,904 - INFO -   Data e ora di avvio: 15-07-2025 18:10:05
+2025-07-15 18:10:05,904 - INFO - ======================================================
+2025-07-15 18:10:05,904 - INFO - In attesa fino alle 00:05:00 del 16-07-2025 per iniziare il ciclo di estrazioni.
+2025-07-16 00:05:00,132 - INFO - AVVIO CICLO DI ESTRAZIONE alle 16-07-2025 00:05:00
+2025-07-16 00:05:00,132 - INFO - Programmato: 'compito_estrazione_oraria' ogni ora al minuto 05.
+2025-07-16 00:05:00,132 - INFO - Programmato: 'compito_processo_finale' ogni giorno alle 23:15.
+2025-07-16 00:05:00,132 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 00:05:00,132 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 00:13:11,394 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 01:05:00,212 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 01:05:00,212 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 01:13:05,046 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 02:05:00,697 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 02:05:00,697 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 02:12:58,408 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 03:05:00,077 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 03:05:00,077 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 03:15:34,937 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 04:05:00,560 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 04:05:00,561 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 04:23:12,197 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 05:05:00,614 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 05:05:00,614 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 05:18:10,522 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 06:05:00,104 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 06:05:00,104 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 06:13:10,734 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 07:05:00,500 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 07:05:00,500 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 07:13:30,476 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 08:05:00,244 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 08:05:00,244 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 08:13:03,337 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 09:05:00,115 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 09:05:00,115 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 09:13:19,364 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 10:05:00,080 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 10:05:00,080 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 10:13:22,313 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 11:05:00,868 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 11:05:00,868 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 11:18:27,390 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 12:05:00,845 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 12:05:00,845 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 12:13:38,007 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 13:05:00,562 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 13:05:00,562 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 13:13:24,144 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 14:05:00,826 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 14:05:00,826 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 14:28:27,539 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 15:05:00,588 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 15:05:00,588 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 15:13:29,732 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 16:05:00,240 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 16:05:00,242 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 16:13:36,537 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 17:05:00,341 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 17:05:00,341 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 17:13:47,488 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 18:05:00,132 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 18:05:00,132 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 18:18:25,190 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 19:05:00,761 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 19:05:00,761 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 19:13:31,851 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 20:05:00,580 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 20:05:00,580 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 20:13:10,558 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 21:05:00,291 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 21:05:00,291 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 21:23:17,692 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 22:05:00,094 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 22:05:00,094 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 22:18:56,734 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 23:05:00,262 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-16 23:05:00,262 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-16 23:23:28,076 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-16 23:23:29,079 - INFO - AVVIO PROCESSO DI PULIZIA E UNIONE FINALE (fine giornata)
+2025-07-16 23:23:29,079 - ERROR - SCRIPT NON TROVATO: Impossibile trovare 'pulisci_giornaliere.py'.
+2025-07-16 23:23:29,079 - INFO - --- AVVIO SCRIPT: pulisci_bot.py ---
+2025-07-16 23:23:31,490 - INFO - --- FINE SCRIPT: pulisci_bot.py completato con successo. ---
+2025-07-16 23:23:31,490 - INFO - --- AVVIO SCRIPT: unione_finale.py ---
+2025-07-16 23:23:32,226 - INFO - --- FINE SCRIPT: unione_finale.py completato con successo. ---
+2025-07-16 23:23:32,226 - INFO - PROCESSO DI FINE GIORNATA COMPLETATO.
+2025-07-17 00:05:00,637 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 00:05:00,637 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 00:13:06,189 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 01:05:00,963 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 01:05:00,963 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 01:13:07,598 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 02:05:00,318 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 02:05:00,318 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 02:13:06,028 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 03:05:00,791 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 03:05:00,791 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 03:16:16,689 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 04:05:00,281 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 04:05:00,281 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 04:13:09,967 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 05:05:00,720 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 05:05:00,722 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 05:18:08,049 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 06:05:00,620 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 06:05:00,620 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 06:13:30,684 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 07:05:00,429 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 07:05:00,429 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 07:14:28,125 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 08:05:00,795 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 08:05:00,795 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 08:17:55,918 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 09:05:00,462 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 09:05:00,462 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 09:13:47,230 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 10:05:00,926 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 10:05:00,926 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 10:13:53,646 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 11:05:00,348 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 11:05:00,348 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 11:13:20,208 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 12:05:00,896 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 12:05:00,896 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 12:13:30,583 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 13:05:00,285 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 13:05:00,285 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 13:13:18,422 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 14:05:00,098 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 14:05:00,098 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 14:13:48,608 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 15:05:00,303 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 15:05:00,303 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 15:13:16,433 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 16:05:00,124 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 16:05:00,124 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 16:18:04,765 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 17:05:00,281 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 17:05:00,281 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 17:13:13,785 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 18:05:00,498 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 18:05:00,498 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 18:14:03,067 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 19:05:00,770 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 19:05:00,770 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 19:13:38,492 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 20:05:00,229 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 20:05:00,229 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 20:13:10,494 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 21:05:00,202 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 21:05:00,202 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 21:13:15,606 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 22:05:00,324 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 22:05:00,324 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 22:12:52,194 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 23:05:00,952 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-17 23:05:00,952 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-17 23:17:51,928 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-17 23:17:52,937 - INFO - AVVIO PROCESSO DI PULIZIA E UNIONE FINALE (fine giornata)
+2025-07-17 23:17:52,937 - ERROR - SCRIPT NON TROVATO: Impossibile trovare 'pulisci_giornaliere.py'.
+2025-07-17 23:17:52,937 - INFO - --- AVVIO SCRIPT: pulisci_bot.py ---
+2025-07-17 23:17:55,510 - INFO - --- FINE SCRIPT: pulisci_bot.py completato con successo. ---
+2025-07-17 23:17:55,510 - INFO - --- AVVIO SCRIPT: unione_finale.py ---
+2025-07-17 23:17:56,395 - INFO - --- FINE SCRIPT: unione_finale.py completato con successo. ---
+2025-07-17 23:17:56,395 - INFO - PROCESSO DI FINE GIORNATA COMPLETATO.
+2025-07-18 00:05:00,978 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-18 00:05:00,978 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-18 00:12:42,571 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-18 01:05:00,312 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-18 01:05:00,312 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-18 01:13:07,563 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-18 02:05:00,304 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-18 02:05:00,304 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-18 02:13:05,533 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-18 03:05:00,289 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-18 03:05:00,289 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-18 03:16:40,028 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-18 04:05:00,645 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-18 04:05:00,645 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-18 04:18:04,285 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-18 05:05:00,359 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-18 05:05:00,359 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-18 05:13:32,293 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-18 06:05:00,286 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-18 06:05:00,286 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-18 06:23:10,685 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-18 07:05:00,866 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-18 07:05:00,866 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-18 07:13:36,077 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-18 08:05:00,977 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-18 08:05:00,977 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-18 08:18:48,956 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-18 09:05:00,663 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-18 09:05:00,663 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-21 16:34:14,253 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-21 16:34:15,263 - INFO - AVVIO PROCESSO DI PULIZIA E UNIONE FINALE (fine giornata)
+2025-07-21 16:34:15,263 - ERROR - SCRIPT NON TROVATO: Impossibile trovare 'pulisci_giornaliere.py'.
+2025-07-21 16:34:15,264 - INFO - --- AVVIO SCRIPT: pulisci_bot.py ---
+2025-07-21 16:34:17,824 - INFO - --- FINE SCRIPT: pulisci_bot.py completato con successo. ---
+2025-07-21 16:34:17,824 - INFO - --- AVVIO SCRIPT: unione_finale.py ---
+2025-07-21 16:34:18,521 - INFO - --- FINE SCRIPT: unione_finale.py completato con successo. ---
+2025-07-21 16:34:18,521 - INFO - PROCESSO DI FINE GIORNATA COMPLETATO.
+2025-07-21 17:05:00,682 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-21 17:05:00,683 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-21 17:13:47,424 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-07-21 18:05:00,024 - INFO - È l'ora dell'estrazione! Avvio estrazione_giornaliera.py...
+2025-07-21 18:05:00,025 - INFO - --- AVVIO SCRIPT: estrazione_giornaliera.py ---
+2025-07-21 18:14:08,073 - INFO - --- FINE SCRIPT: estrazione_giornaliera.py completato con successo. ---
+2025-08-12 14:49:38,027 - INFO - ======================================================
+2025-08-12 14:49:38,028 - INFO -   GESTORE PRINCIPALE AVVIATO
+2025-08-12 14:49:38,028 - INFO -   Data e ora di avvio: 12-08-2025 14:49:38
+2025-08-12 14:49:38,028 - INFO - ======================================================
+2025-08-12 14:49:38,029 - INFO - In attesa fino alle 00:05:00 del 13-08-2025 per iniziare il ciclo di estrazioni.
+2025-08-20 10:16:58,255 - INFO - ======================================================
+2025-08-20 10:16:58,255 - INFO -   GESTORE PRINCIPALE AVVIATO
+2025-08-20 10:16:58,255 - INFO -   Data e ora di avvio: 20-08-2025 10:16:58
+2025-08-20 10:16:58,255 - INFO - ======================================================
+2025-08-20 10:16:58,255 - INFO - In attesa fino alle 00:05:00 del 21-08-2025 per iniziare il ciclo di estrazioni.
+2025-08-20 10:30:49,156 - INFO - ======================================================
+2025-08-20 10:30:49,156 - INFO -   GESTORE PRINCIPALE AVVIATO
+2025-08-20 10:30:49,156 - INFO -   Data e ora di avvio: 20-08-2025 10:30:49
+2025-08-20 10:30:49,156 - INFO - ======================================================
+2025-08-20 10:30:49,156 - INFO - MODALITÀ TEST ATTIVA: Salto l'attesa e il ciclo di scheduling.
