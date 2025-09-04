@@ -363,3 +363,22 @@ Name: 0, Length: 725, dtype: object' is not compatible with origin='1899-12-30';
 2025-09-02 23:30:05,974 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Bot_Pulito\Bot_Pulito_02-09-2025.xlsx
 2025-09-02 23:30:05,974 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
 
+2025-09-03 23:30:02,107 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-04 00:09:28,935 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-04 01:09:29,389 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-04 02:13:07,748 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-04 03:11:41,623 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-04 04:09:20,141 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-04 05:09:21,310 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-04 06:09:16,139 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-04 07:13:12,888 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-04 08:09:42,648 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-04 09:09:39,523 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-04 09:36:05,243 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-04 09:36:05,244 - INFO - Trovati 25 file da analizzare per la data 04-09-2025.
+2025-09-04 09:36:07,226 - INFO - Trovate 309 righe nel file Bot 09012025_1353.xlsx.
+2025-09-04 09:36:07,361 - INFO - Righe totali trovate prima della pulizia: 309
+2025-09-04 09:36:07,363 - INFO - Numero finale di righe uniche: 309
+2025-09-04 09:36:07,459 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Bot_Pulito\Bot_Pulito_04-09-2025.xlsx
+2025-09-04 09:36:07,460 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+

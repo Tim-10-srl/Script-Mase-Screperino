@@ -1,0 +1,25 @@
+2025-09-03 15:18:22,961 - INFO - === Orchestratore LEAN avviato (h24/7) ===
+2025-09-03 15:18:22,962 - INFO - EOD: stato -> now=2025-09-03 15:18:22, last=None, today=2025-09-03
+2025-09-03 15:18:22,963 - INFO - EOD: catch-up rilevato. Ultimo EOD processato: None. Eseguo per 2025-09-02.
+2025-09-03 15:18:22,965 - INFO - EOD: avvio pulizia/unione per la data 2025-09-02.
+2025-09-03 15:18:22,965 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_giornaliera.py', '2025-09-02'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-03 15:18:32,421 - INFO - === Orchestratore LEAN avviato (h24/7) ===
+2025-09-03 15:18:32,422 - INFO - EOD: stato -> now=2025-09-03 15:18:32, last=None, today=2025-09-03
+2025-09-03 15:18:32,424 - INFO - EOD: catch-up rilevato. Ultimo EOD processato: None. Eseguo per 2025-09-02.
+2025-09-03 15:18:32,425 - INFO - EOD: avvio pulizia/unione per la data 2025-09-02.
+2025-09-03 15:18:32,426 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_giornaliera.py', '2025-09-02'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-03 15:19:23,145 - INFO - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+WARNING - Nessuna cartella di input per la data 02-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_02_09_2025. Esco senza errore.
+INFO - ================== FINE SCRIPT DI PULIZIA ===================
+2025-09-03 15:19:23,146 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-03 15:19:24,161 - ERROR - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+Traceback (most recent call last):
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 113, in <module>
+    pulisci_bot()
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 45, in pulisci_bot
+    f for f in os.listdir(path_input_bot)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\File_Input\\Bot'
+2025-09-03 15:19:24,162 - ERROR - EOD: script fallito (rc=1) -> ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py']
+2025-09-03 15:19:24,163 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-03 15:19:24,164 - INFO - Sleep fino a 03-09 16:05:00 (~2735s)

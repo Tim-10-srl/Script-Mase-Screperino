@@ -185,3 +185,5 @@
 2025-09-02 23:30:07,422 - INFO - Unite le specifiche della nave.
 2025-09-02 23:30:07,428 - INFO - Uniti dati dal Bot.
 2025-09-02 23:30:08,527 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_02-09-2025.xlsx
+2025-09-04 09:36:08,533 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-09-04 09:36:08,535 - ERROR - ERRORE CRITICO nel caricamento file: [Errno 2] No such file or directory: 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\File_Output\\Estrazioni_Giornaliere_Pulite\\Giornaliera_Pulita_04-09-2025.xlsx'

@@ -7453,3 +7453,1118 @@ INFO - \u2705 UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Co
 2025-09-03 00:07:05,484 - INFO - EOD: stato -> now=2025-09-03 00:07:05, last=2025-09-02, today=2025-09-03
 2025-09-03 00:07:05,484 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
 2025-09-03 00:07:05,496 - INFO - Sleep fino a 03-09 01:05:00 (~3474s)
+2025-09-03 15:29:11,938 - INFO - === Orchestratore LEAN avviato (h24/7) ===
+2025-09-03 15:29:11,947 - INFO - EOD: stato -> now=2025-09-03 15:29:11, last=2025-09-02, today=2025-09-03
+2025-09-03 15:29:11,949 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-03 15:29:11,949 - INFO - Sleep fino a 03-09 16:05:00 (~2148s)
+2025-09-03 16:05:00,002 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-03 16:05:04,865 - INFO - A OK
+2025-09-03 16:05:04,876 - INFO - Sono passate >= 4h dall'ultimo B: avvio B.
+2025-09-03 16:05:04,877 - INFO - Eseguo B (once): ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', WindowsPath('C:/Users/amministrazione/Desktop/Script/Sviluppo/MASE/script/gestore2.py'), '--once']
+2025-09-03 16:05:06,630 - INFO - --- GESTORE MASE AVVIATO ---
+
+[FASE 1] Avvio di 'screp.py'...
+!!! ERRORE: Uno degli script ha terminato con un errore: Command '['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\MASE\\script\\screp.py']' returned non-zero exit status 1.
+2025-09-03 16:05:06,630 - ERROR - Traceback (most recent call last):
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\MASE\script\screp.py", line 41, in <module>
+    from config import MASE_INPUT_SCREP_PORTI, MASE_TEMP, MASE_CHROME_PROFILE
+ImportError: cannot import name 'MASE_INPUT_SCREP_PORTI' from 'config' (C:\Users\amministrazione\Desktop\Script\Sviluppo\config.py)
+2025-09-03 16:05:06,630 - ERROR - B ERROR rc=1
+2025-09-03 16:05:06,630 - INFO - EOD: stato -> now=2025-09-03 16:05:06, last=2025-09-02, today=2025-09-03
+2025-09-03 16:05:06,630 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-03 16:05:06,630 - INFO - Sleep fino a 03-09 17:05:00 (~3593s)
+2025-09-03 16:22:11,207 - INFO - === Orchestratore LEAN avviato (h24/7) ===
+2025-09-03 16:22:11,208 - INFO - EOD: stato -> now=2025-09-03 16:22:11, last=2025-09-02, today=2025-09-03
+2025-09-03 16:22:11,209 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-03 16:22:11,210 - INFO - Sleep fino a 03-09 17:05:00 (~2568s)
+2025-09-03 16:27:16,446 - INFO - === Orchestratore LEAN avviato (h24/7) ===
+2025-09-03 16:27:16,446 - INFO - EOD: stato -> now=2025-09-03 16:27:16, last=2025-09-02, today=2025-09-03
+2025-09-03 16:27:16,446 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-03 16:27:16,446 - INFO - Sleep fino a 03-09 17:05:00 (~2263s)
+2025-09-03 17:05:00,012 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-03 17:05:01,259 - INFO - A OK
+2025-09-03 17:05:01,259 - INFO - Sono passate >= 4h dall'ultimo B: avvio B.
+2025-09-03 17:05:01,259 - INFO - Eseguo B (once): ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', WindowsPath('C:/Users/amministrazione/Desktop/Script/Sviluppo/MASE/script/gestore2.py'), '--once']
+2025-09-03 17:07:57,731 - INFO - --- Avvio Script 1: Estrazione MMSI ---
+
+--- Analizzando: Alger (Algiers) (ID: 3264) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Arzew (ID: 3277) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Ghazaouet (ID: 3271) ---
+  -> Trovate 1 nuove navi.
+
+--- Analizzando: Mostaganem (ID: 3256) ---
+  -> Trovate 2 nuove navi.
+
+--- Analizzando: Oran (ID: 3274) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Dumyat (Damietta) (ID: 3177) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: El Iskandariya (Alexandria) (ID: 86) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Sokhna Port (ID: 3178) ---
+  -> Trovate 7 nuove navi.
+
+--- Analizzando: El Dekheila (ID: 3166) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Port Said (ID: 3167) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Bizerte (ID: 3210) ---
+  -> Trovate 6 nuove navi.
+
+--- Analizzando: Sfax (ID: 3238) ---
+  -> Trovate 5 nuove navi.
+
+--- Analizzando: Sousse (ID: 3212) ---
+  -> Trovate 5 nuove navi.
+
+--- Analizzando: Tunis (ID: 3230) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Casablanca (ID: 3290) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Agadir (ID: 3303) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Nador (ID: 3310) ---
+  -> Trovate 8 nuove navi.
+
+--- Analizzando: Tanger Med (ID: 3304) ---
+  -> Trovate 5 nuove navi.
+
+--- Analizzando: Tanger Med  (ID: 3296) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Abidjan (ID: 3337) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: San-Pedro (ID: 3336) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Banana (ID: 3381) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Pointe Noire (ID: 3364) ---
+  -> Trovate 2 nuove navi.
+
+--- Analizzando: Beira (ID: 3411) ---
+  -> Trovate 1 nuove navi.
+
+--- Analizzando: Maputo (ID: 3413) ---
+  -> Trovate 3 nuove navi.
+
+--- Analizzando: Nacala (ID: 3414) ---
+  -> Trovate 1 nuove navi.
+
+--- Analizzando: Quelimane (ID: 3416) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Mombasa (ID: 3429) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Cabinda (ID: 3366) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Lobito (ID: 3367) ---
+  -> Trovate 2 nuove navi.
+
+--- Analizzando: Luanda (ID: 3375) ---
+  -> Trovate 6 nuove navi.
+
+--- Analizzando: Malongo (ID: 3376) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Namibe (ID: 3365) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Soyo (ID: 3377) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Takoradi (ID: 3340) ---
+  -> Trovate 3 nuove navi.
+
+--- Analizzando: Tema (ID: 417) ---
+  -> Trovate 6 nuove navi.
+
+--- Analizzando: Nouadhibou (ID: 3314) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Nouakchott (ID: 3313) ---
+  -> Trovate 7 nuove navi.
+
+--- Analizzando: Dar es Salaam (ID: 3427) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Dakar (ID: 3319) ---
+  -> Trovate 10 nuove navi.
+
+Scrittura di 230 MMSI unici nel file...
+Salvataggio completato! File aggiornato: C:\Users\amministrazione\Desktop\Script\Sviluppo\MASE\Input\File_Temp\mmsi_attuali.csv
+--- FINE SCRIPT 1 ---
+--- Avvio Script 2: Elaboratore ---
+Trovate 9 navi partite. Avvio browser per tracciamento...
+  -> Tracciando MMSI partito: 605116750
+     -> Viaggio precedente trovato: da ALGER a ALGER
+  -> Tracciando MMSI partito: 370998000
+     -> Viaggio precedente trovato: da ALEXANDRIA a ALEXANDRIA
+  -> Tracciando MMSI partito: 247334600
+     -> Viaggio precedente trovato: da CIVITAVECCHIA a RADES
+  -> Tracciando MMSI partito: 642112004
+  -> Tracciando MMSI partito: 212777000
+     -> Viaggio precedente trovato: da ALGECIRAS a TANGER MED
+  -> Tracciando MMSI partito: 242533400
+     -> Viaggio precedente trovato: da TANGER MED a TANGER MED
+  -> Tracciando MMSI partito: 636018704
+     -> ATTENZIONE: Errore durante il tracciamento di MMSI 636018704. list index out of range
+  -> Tracciando MMSI partito: 257548000
+     -> Viaggio precedente trovato: da CHANGSHU a DAR ES SALAAM
+  -> Tracciando MMSI partito: 232061535
+     -> Viaggio precedente trovato: da MARSAXLOKK a ALGER
+File di stato aggiornati per la prossima esecuzione.
+--- FINE SCRIPT 2 ---
+--- GESTORE MASE AVVIATO ---
+
+[FASE 1] Avvio di 'screp.py'...
+[FASE 1] 'screp.py' completato con successo.
+
+[FASE 2] Avvio di 'elaboratore.py'...
+[FASE 2] 'elaboratore.py' completato con successo.
+
+--- CORSA SINGOLA COMPLETATA ---
+2025-09-03 17:07:57,732 - INFO - B DONE
+2025-09-03 17:07:57,736 - INFO - EOD: stato -> now=2025-09-03 17:07:57, last=2025-09-02, today=2025-09-03
+2025-09-03 17:07:57,736 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-03 17:07:57,737 - INFO - Sleep fino a 03-09 18:05:00 (~3422s)
+2025-09-03 18:05:00,001 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-03 18:10:19,258 - INFO - A OK
+2025-09-03 18:10:19,270 - INFO - EOD: stato -> now=2025-09-03 18:10:19, last=2025-09-02, today=2025-09-03
+2025-09-03 18:10:19,270 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-03 18:10:19,272 - INFO - Sleep fino a 03-09 19:05:00 (~3280s)
+2025-09-03 19:05:00,001 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-03 19:09:57,545 - INFO - A OK
+2025-09-03 19:09:57,545 - INFO - EOD: stato -> now=2025-09-03 19:09:57, last=2025-09-02, today=2025-09-03
+2025-09-03 19:09:57,545 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-03 19:09:57,545 - INFO - Sleep fino a 03-09 20:05:00 (~3302s)
+2025-09-03 20:05:00,014 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-03 20:09:23,859 - INFO - A OK
+2025-09-03 20:09:23,862 - INFO - EOD: stato -> now=2025-09-03 20:09:23, last=2025-09-02, today=2025-09-03
+2025-09-03 20:09:23,863 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-03 20:09:23,864 - INFO - Sleep fino a 03-09 21:05:00 (~3336s)
+2025-09-03 21:05:00,001 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-03 21:09:34,977 - INFO - A OK
+2025-09-03 21:09:34,977 - INFO - Sono passate >= 4h dall'ultimo B: avvio B.
+2025-09-03 21:09:34,977 - INFO - Eseguo B (once): ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', WindowsPath('C:/Users/amministrazione/Desktop/Script/Sviluppo/MASE/script/gestore2.py'), '--once']
+2025-09-03 21:12:56,644 - INFO - --- Avvio Script 1: Estrazione MMSI ---
+
+--- Analizzando: Alger (Algiers) (ID: 3264) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Arzew (ID: 3277) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Ghazaouet (ID: 3271) ---
+  -> Trovate 2 nuove navi.
+
+--- Analizzando: Mostaganem (ID: 3256) ---
+  -> Trovate 2 nuove navi.
+
+--- Analizzando: Oran (ID: 3274) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Dumyat (Damietta) (ID: 3177) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: El Iskandariya (Alexandria) (ID: 86) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Sokhna Port (ID: 3178) ---
+  -> Trovate 8 nuove navi.
+
+--- Analizzando: El Dekheila (ID: 3166) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Port Said (ID: 3167) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Bizerte (ID: 3210) ---
+  -> Trovate 7 nuove navi.
+
+--- Analizzando: Sfax (ID: 3238) ---
+  -> Trovate 2 nuove navi.
+
+--- Analizzando: Sousse (ID: 3212) ---
+  -> Trovate 5 nuove navi.
+
+--- Analizzando: Tunis (ID: 3230) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Casablanca (ID: 3290) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Agadir (ID: 3303) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Nador (ID: 3310) ---
+  -> Trovate 8 nuove navi.
+
+--- Analizzando: Tanger Med (ID: 3304) ---
+  -> Trovate 7 nuove navi.
+
+--- Analizzando: Tanger Med  (ID: 3296) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Abidjan (ID: 3337) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: San-Pedro (ID: 3336) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Banana (ID: 3381) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Pointe Noire (ID: 3364) ---
+  -> Trovate 3 nuove navi.
+
+--- Analizzando: Beira (ID: 3411) ---
+  -> Trovate 1 nuove navi.
+
+--- Analizzando: Maputo (ID: 3413) ---
+  -> Trovate 3 nuove navi.
+
+--- Analizzando: Nacala (ID: 3414) ---
+  -> Trovate 1 nuove navi.
+
+--- Analizzando: Quelimane (ID: 3416) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Mombasa (ID: 3429) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Cabinda (ID: 3366) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Lobito (ID: 3367) ---
+  -> Trovate 2 nuove navi.
+
+--- Analizzando: Luanda (ID: 3375) ---
+  -> Trovate 6 nuove navi.
+
+--- Analizzando: Malongo (ID: 3376) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Namibe (ID: 3365) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Soyo (ID: 3377) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Takoradi (ID: 3340) ---
+  -> Trovate 3 nuove navi.
+
+--- Analizzando: Tema (ID: 417) ---
+  -> Trovate 6 nuove navi.
+
+--- Analizzando: Nouadhibou (ID: 3314) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Nouakchott (ID: 3313) ---
+  -> Trovate 8 nuove navi.
+
+--- Analizzando: Dar es Salaam (ID: 3427) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Dakar (ID: 3319) ---
+  -> Trovate 10 nuove navi.
+
+Scrittura di 234 MMSI unici nel file...
+Salvataggio completato! File aggiornato: C:\Users\amministrazione\Desktop\Script\Sviluppo\MASE\Input\File_Temp\mmsi_attuali.csv
+--- FINE SCRIPT 1 ---
+--- Avvio Script 2: Elaboratore ---
+Trovate 23 navi partite. Avvio browser per tracciamento...
+  -> Tracciando MMSI partito: 412345000
+     -> Viaggio precedente trovato: da ORAN a ORAN
+  -> Tracciando MMSI partito: 373550000
+     -> Viaggio precedente trovato: da TARRAGONA a SFAX
+  -> Tracciando MMSI partito: 630001001
+     -> Viaggio precedente trovato: da NEMRUT a SFAX
+  -> Tracciando MMSI partito: 242906000
+     -> Viaggio precedente trovato: da TANGER MED a TANGER MED
+  -> Tracciando MMSI partito: 636023314
+     -> Viaggio precedente trovato: da BARCELONA a ALGER
+  -> Tracciando MMSI partito: 620050000
+     -> Viaggio precedente trovato: da ALEXANDRIA a DAMIETTA
+  -> Tracciando MMSI partito: 209678000
+     -> Viaggio precedente trovato: da TANGER MED a ALGECIRAS
+  -> Tracciando MMSI partito: 636019212
+     -> Viaggio precedente trovato: da VONDELINGENPLAAT - ROTTERDAM a TANGER MED
+  -> Tracciando MMSI partito: 777070700
+     -> Viaggio precedente trovato: da ZANZIBAR a DAR ES SALAAM
+  -> Tracciando MMSI partito: 247391700
+     -> Viaggio precedente trovato: da TANGER MED a ALGECIRAS
+  -> Tracciando MMSI partito: 224647000
+     -> Viaggio precedente trovato: da TANGER MED a ALGECIRAS
+  -> Tracciando MMSI partito: 477898500
+     -> Viaggio precedente trovato: da LOME a NOUAKCHOTT
+  -> Tracciando MMSI partito: 636021078
+     -> Viaggio precedente trovato: da SINES a ALGER
+  -> Tracciando MMSI partito: 667001656
+     -> Viaggio precedente trovato: da DURRES a SFAX
+  -> Tracciando MMSI partito: 563191300
+     -> Viaggio precedente trovato: da SINGAPORE a MOMBASA
+  -> Tracciando MMSI partito: 242127100
+     -> Viaggio precedente trovato: da TANGER MED a ALGECIRAS
+  -> Tracciando MMSI partito: 227202000
+     -> Viaggio precedente trovato: da MARSEILLE a NADOR
+  -> Tracciando MMSI partito: 677050900
+     -> Viaggio precedente trovato: da ZANZIBAR a DAR ES SALAAM
+  -> Tracciando MMSI partito: 277549000
+     -> Viaggio precedente trovato: da BARCELONA a ORAN
+  -> Tracciando MMSI partito: 605000000
+     -> Viaggio precedente trovato: da ORAN a ORAN
+  -> Tracciando MMSI partito: 622107054
+     -> ATTENZIONE: Errore durante il tracciamento di MMSI 622107054. list index out of range
+  -> Tracciando MMSI partito: 672748000
+     -> Viaggio precedente trovato: da MARSEILLE a RADES
+  -> Tracciando MMSI partito: 605176080
+     -> Viaggio precedente trovato: da ARZEW a ALGER
+
+âœ… Report aggiornato e salvato in: C:\Users\amministrazione\Desktop\Script\Sviluppo\MASE\Output\Navi_Estratte\Report_Navi_Tracciate_MASTER.xlsx
+File di stato aggiornati per la prossima esecuzione.
+--- FINE SCRIPT 2 ---
+--- GESTORE MASE AVVIATO ---
+
+[FASE 1] Avvio di 'screp.py'...
+[FASE 1] 'screp.py' completato con successo.
+
+[FASE 2] Avvio di 'elaboratore.py'...
+[FASE 2] 'elaboratore.py' completato con successo.
+
+--- CORSA SINGOLA COMPLETATA ---
+2025-09-03 21:12:56,644 - ERROR - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2025-09-03 21:12:56,644 - INFO - B DONE
+2025-09-03 21:12:56,644 - INFO - EOD: stato -> now=2025-09-03 21:12:56, last=2025-09-02, today=2025-09-03
+2025-09-03 21:12:56,644 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-03 21:12:56,644 - INFO - Sleep fino a 03-09 22:05:00 (~3123s)
+2025-09-03 22:05:00,009 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-03 22:10:09,449 - INFO - A OK
+2025-09-03 22:10:09,462 - INFO - EOD: stato -> now=2025-09-03 22:10:09, last=2025-09-02, today=2025-09-03
+2025-09-03 22:10:09,463 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-03 22:10:09,464 - INFO - Sleep fino a 03-09 23:05:00 (~3290s)
+2025-09-03 23:05:00,001 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-03 23:09:43,567 - INFO - A OK
+2025-09-03 23:09:43,588 - INFO - EOD: stato -> now=2025-09-03 23:09:43, last=2025-09-02, today=2025-09-03
+2025-09-03 23:09:43,589 - INFO - EOD: attendo fino alle 23:30 (~1216s) prima di eseguire.
+2025-09-03 23:30:00,002 - INFO - EOD: finestra raggiunta per oggi. Avvio EOD giorno corrente.
+2025-09-03 23:30:00,004 - INFO - EOD: avvio pulizia/unione per la data 2025-09-03.
+2025-09-03 23:30:00,005 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_giornaliera.py', '2025-09-03'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-03 23:30:01,100 - INFO - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+INFO - ================== FINE SCRIPT DI PULIZIA ===================
+2025-09-03 23:30:01,101 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-03 23:30:02,184 - ERROR - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+Traceback (most recent call last):
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 113, in <module>
+    pulisci_bot()
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 45, in pulisci_bot
+    f for f in os.listdir(path_input_bot)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\File_Input\\Bot'
+2025-09-03 23:30:02,185 - ERROR - EOD: script fallito (rc=1) -> ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py']
+2025-09-03 23:30:02,185 - INFO - Sleep fino a 04-09 00:05:00 (~2097s)
+2025-09-04 00:05:00,003 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-04 00:09:26,872 - INFO - A OK
+2025-09-04 00:09:26,888 - INFO - EOD: stato -> now=2025-09-04 00:09:26, last=2025-09-02, today=2025-09-04
+2025-09-04 00:09:26,888 - INFO - EOD: catch-up rilevato. Ultimo EOD processato: 2025-09-02. Eseguo per 2025-09-03.
+2025-09-04 00:09:26,891 - INFO - EOD: avvio pulizia/unione per la data 2025-09-03.
+2025-09-04 00:09:26,891 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_giornaliera.py', '2025-09-03'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 00:09:27,941 - INFO - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+INFO - ================== FINE SCRIPT DI PULIZIA ===================
+2025-09-04 00:09:27,942 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 00:09:29,010 - ERROR - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+Traceback (most recent call last):
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 113, in <module>
+    pulisci_bot()
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 45, in pulisci_bot
+    f for f in os.listdir(path_input_bot)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\File_Input\\Bot'
+2025-09-04 00:09:29,011 - ERROR - EOD: script fallito (rc=1) -> ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py']
+2025-09-04 00:09:29,011 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-04 00:09:29,013 - INFO - Sleep fino a 04-09 01:05:00 (~3330s)
+2025-09-04 01:05:00,001 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-04 01:09:27,375 - INFO - A OK
+2025-09-04 01:09:27,377 - INFO - EOD: stato -> now=2025-09-04 01:09:27, last=2025-09-02, today=2025-09-04
+2025-09-04 01:09:27,378 - INFO - EOD: catch-up rilevato. Ultimo EOD processato: 2025-09-02. Eseguo per 2025-09-03.
+2025-09-04 01:09:27,378 - INFO - EOD: avvio pulizia/unione per la data 2025-09-03.
+2025-09-04 01:09:27,379 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_giornaliera.py', '2025-09-03'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 01:09:28,437 - INFO - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+INFO - ================== FINE SCRIPT DI PULIZIA ===================
+2025-09-04 01:09:28,439 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 01:09:29,474 - ERROR - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+Traceback (most recent call last):
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 113, in <module>
+    pulisci_bot()
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 45, in pulisci_bot
+    f for f in os.listdir(path_input_bot)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\File_Input\\Bot'
+2025-09-04 01:09:29,474 - ERROR - EOD: script fallito (rc=1) -> ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py']
+2025-09-04 01:09:29,474 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-04 01:09:29,474 - INFO - Sleep fino a 04-09 02:05:00 (~3330s)
+2025-09-04 02:05:00,005 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-04 02:09:26,042 - INFO - A OK
+2025-09-04 02:09:26,044 - INFO - Sono passate >= 4h dall'ultimo B: avvio B.
+2025-09-04 02:09:26,045 - INFO - Eseguo B (once): ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', WindowsPath('C:/Users/amministrazione/Desktop/Script/Sviluppo/MASE/script/gestore2.py'), '--once']
+2025-09-04 02:13:05,564 - INFO - --- Avvio Script 1: Estrazione MMSI ---
+
+--- Analizzando: Alger (Algiers) (ID: 3264) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Arzew (ID: 3277) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Ghazaouet (ID: 3271) ---
+  -> Trovate 2 nuove navi.
+
+--- Analizzando: Mostaganem (ID: 3256) ---
+  -> Trovate 2 nuove navi.
+
+--- Analizzando: Oran (ID: 3274) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Dumyat (Damietta) (ID: 3177) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: El Iskandariya (Alexandria) (ID: 86) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Sokhna Port (ID: 3178) ---
+  -> Trovate 5 nuove navi.
+
+--- Analizzando: El Dekheila (ID: 3166) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Port Said (ID: 3167) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Bizerte (ID: 3210) ---
+  -> Trovate 7 nuove navi.
+
+--- Analizzando: Sfax (ID: 3238) ---
+  -> Trovate 2 nuove navi.
+
+--- Analizzando: Sousse (ID: 3212) ---
+  -> Trovate 6 nuove navi.
+
+--- Analizzando: Tunis (ID: 3230) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Casablanca (ID: 3290) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Agadir (ID: 3303) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Nador (ID: 3310) ---
+  -> Trovate 7 nuove navi.
+
+--- Analizzando: Tanger Med (ID: 3304) ---
+  -> Trovate 6 nuove navi.
+
+--- Analizzando: Tanger Med  (ID: 3296) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Abidjan (ID: 3337) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: San-Pedro (ID: 3336) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Banana (ID: 3381) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Pointe Noire (ID: 3364) ---
+  -> Trovate 3 nuove navi.
+
+--- Analizzando: Beira (ID: 3411) ---
+  -> Trovate 1 nuove navi.
+
+--- Analizzando: Maputo (ID: 3413) ---
+  -> Trovate 4 nuove navi.
+
+--- Analizzando: Nacala (ID: 3414) ---
+  -> Trovate 1 nuove navi.
+
+--- Analizzando: Quelimane (ID: 3416) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Mombasa (ID: 3429) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Cabinda (ID: 3366) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Lobito (ID: 3367) ---
+  -> Trovate 2 nuove navi.
+
+--- Analizzando: Luanda (ID: 3375) ---
+  -> Trovate 6 nuove navi.
+
+--- Analizzando: Malongo (ID: 3376) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Namibe (ID: 3365) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Soyo (ID: 3377) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Takoradi (ID: 3340) ---
+  -> Trovate 3 nuove navi.
+
+--- Analizzando: Tema (ID: 417) ---
+  -> Trovate 6 nuove navi.
+
+--- Analizzando: Nouadhibou (ID: 3314) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Nouakchott (ID: 3313) ---
+  -> Trovate 9 nuove navi.
+
+--- Analizzando: Dar es Salaam (ID: 3427) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Dakar (ID: 3319) ---
+  -> Trovate 10 nuove navi.
+
+Scrittura di 232 MMSI unici nel file...
+Salvataggio completato! File aggiornato: C:\Users\amministrazione\Desktop\Script\Sviluppo\MASE\Input\File_Temp\mmsi_attuali.csv
+--- FINE SCRIPT 1 ---
+--- Avvio Script 2: Elaboratore ---
+Trovate 26 navi partite. Avvio browser per tracciamento...
+  -> Tracciando MMSI partito: 255806056
+     -> Viaggio precedente trovato: da GENOVA a RADES
+  -> Tracciando MMSI partito: 209819000
+     -> Viaggio precedente trovato: da GIBRALTAR a TANGER MED
+  -> Tracciando MMSI partito: 605116730
+     -> Viaggio precedente trovato: da ALGER a ALGER
+  -> Tracciando MMSI partito: 256589000
+     -> Viaggio precedente trovato: da VALENCIA a ALGER
+  -> Tracciando MMSI partito: 565186000
+     -> Viaggio precedente trovato: da YALOVA a TANGER MED
+  -> Tracciando MMSI partito: 242534400
+     -> Viaggio precedente trovato: da TANGER MED a TANGER MED
+  -> Tracciando MMSI partito: 249807000
+     -> Viaggio precedente trovato: da SANTOS a SOKHNA
+  -> Tracciando MMSI partito: 419001615
+     -> Viaggio precedente trovato: da JEDDAH a SOKHNA
+  -> Tracciando MMSI partito: 242894300
+     -> Viaggio precedente trovato: da TANGIER a CASABLANCA
+  -> Tracciando MMSI partito: 224029000
+     -> ATTENZIONE: Errore durante il tracciamento di MMSI 224029000. list index out of range
+  -> Tracciando MMSI partito: 242418400
+     -> ATTENZIONE: Errore durante il tracciamento di MMSI 242418400. list index out of range
+  -> Tracciando MMSI partito: 210976000
+     -> Viaggio precedente trovato: da MOSTAGANEM a MOSTAGANEM
+  -> Tracciando MMSI partito: 268240002
+     -> Viaggio precedente trovato: da TUZLA a ALGER
+  -> Tracciando MMSI partito: 229455000
+     -> Viaggio precedente trovato: da ALMERIA a NADOR
+  -> Tracciando MMSI partito: 341492001
+     -> Viaggio precedente trovato: da MENZEL BOURGUIBA a BIZERTE
+  -> Tracciando MMSI partito: 209410000
+     -> Viaggio precedente trovato: da ALMERIA a NADOR
+  -> Tracciando MMSI partito: 353468000
+     -> Viaggio precedente trovato: da TANGER MED a ALGECIRAS
+  -> Tracciando MMSI partito: 518999343
+     -> Viaggio precedente trovato: da PORT SAID a EL DEKHEILA
+  -> Tracciando MMSI partito: 605266130
+  -> Tracciando MMSI partito: 212777000
+     -> Viaggio precedente trovato: da ALGECIRAS a TANGER MED
+  -> Tracciando MMSI partito: 636014240
+     -> Viaggio precedente trovato: da ANTWERP a ABIDJAN
+  -> Tracciando MMSI partito: 370320000
+     -> ATTENZIONE: Errore durante il tracciamento di MMSI 370320000. list index out of range
+  -> Tracciando MMSI partito: 352003795
+     -> Viaggio precedente trovato: da JEDDAH a SOKHNA
+  -> Tracciando MMSI partito: 224549000
+     -> Viaggio precedente trovato: da TANGER MED a ALGECIRAS
+  -> Tracciando MMSI partito: 563183100
+     -> Viaggio precedente trovato: da GENOVA a RADES
+  -> Tracciando MMSI partito: 236717000
+     -> Viaggio precedente trovato: da MOHAMMEDIA a TANGER MED
+
+âœ… Report aggiornato e salvato in: C:\Users\amministrazione\Desktop\Script\Sviluppo\MASE\Output\Navi_Estratte\Report_Navi_Tracciate_MASTER.xlsx
+File di stato aggiornati per la prossima esecuzione.
+--- FINE SCRIPT 2 ---
+--- GESTORE MASE AVVIATO ---
+
+[FASE 1] Avvio di 'screp.py'...
+[FASE 1] 'screp.py' completato con successo.
+
+[FASE 2] Avvio di 'elaboratore.py'...
+[FASE 2] 'elaboratore.py' completato con successo.
+
+--- CORSA SINGOLA COMPLETATA ---
+2025-09-04 02:13:05,572 - ERROR - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2025-09-04 02:13:05,572 - INFO - B DONE
+2025-09-04 02:13:05,576 - INFO - EOD: stato -> now=2025-09-04 02:13:05, last=2025-09-02, today=2025-09-04
+2025-09-04 02:13:05,576 - INFO - EOD: catch-up rilevato. Ultimo EOD processato: 2025-09-02. Eseguo per 2025-09-03.
+2025-09-04 02:13:05,576 - INFO - EOD: avvio pulizia/unione per la data 2025-09-03.
+2025-09-04 02:13:05,576 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_giornaliera.py', '2025-09-03'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 02:13:06,655 - INFO - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+INFO - ================== FINE SCRIPT DI PULIZIA ===================
+2025-09-04 02:13:06,655 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 02:13:07,832 - ERROR - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+Traceback (most recent call last):
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 113, in <module>
+    pulisci_bot()
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 45, in pulisci_bot
+    f for f in os.listdir(path_input_bot)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\File_Input\\Bot'
+2025-09-04 02:13:07,834 - ERROR - EOD: script fallito (rc=1) -> ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py']
+2025-09-04 02:13:07,836 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-04 02:13:07,836 - INFO - Sleep fino a 04-09 03:05:00 (~3112s)
+2025-09-04 03:05:00,002 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-04 03:11:39,588 - INFO - A OK
+2025-09-04 03:11:39,603 - INFO - EOD: stato -> now=2025-09-04 03:11:39, last=2025-09-02, today=2025-09-04
+2025-09-04 03:11:39,603 - INFO - EOD: catch-up rilevato. Ultimo EOD processato: 2025-09-02. Eseguo per 2025-09-03.
+2025-09-04 03:11:39,604 - INFO - EOD: avvio pulizia/unione per la data 2025-09-03.
+2025-09-04 03:11:39,604 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_giornaliera.py', '2025-09-03'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 03:11:40,677 - INFO - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+INFO - ================== FINE SCRIPT DI PULIZIA ===================
+2025-09-04 03:11:40,679 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 03:11:41,698 - ERROR - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+Traceback (most recent call last):
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 113, in <module>
+    pulisci_bot()
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 45, in pulisci_bot
+    f for f in os.listdir(path_input_bot)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\File_Input\\Bot'
+2025-09-04 03:11:41,701 - ERROR - EOD: script fallito (rc=1) -> ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py']
+2025-09-04 03:11:41,701 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-04 03:11:41,701 - INFO - Sleep fino a 04-09 04:05:00 (~3198s)
+2025-09-04 04:05:00,002 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-04 04:09:18,107 - INFO - A OK
+2025-09-04 04:09:18,107 - INFO - EOD: stato -> now=2025-09-04 04:09:18, last=2025-09-02, today=2025-09-04
+2025-09-04 04:09:18,107 - INFO - EOD: catch-up rilevato. Ultimo EOD processato: 2025-09-02. Eseguo per 2025-09-03.
+2025-09-04 04:09:18,107 - INFO - EOD: avvio pulizia/unione per la data 2025-09-03.
+2025-09-04 04:09:18,107 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_giornaliera.py', '2025-09-03'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 04:09:19,203 - INFO - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+INFO - ================== FINE SCRIPT DI PULIZIA ===================
+2025-09-04 04:09:19,204 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 04:09:20,216 - ERROR - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+Traceback (most recent call last):
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 113, in <module>
+    pulisci_bot()
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 45, in pulisci_bot
+    f for f in os.listdir(path_input_bot)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\File_Input\\Bot'
+2025-09-04 04:09:20,217 - ERROR - EOD: script fallito (rc=1) -> ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py']
+2025-09-04 04:09:20,218 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-04 04:09:20,219 - INFO - Sleep fino a 04-09 05:05:00 (~3339s)
+2025-09-04 05:05:00,001 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-04 05:09:19,227 - INFO - A OK
+2025-09-04 05:09:19,227 - INFO - EOD: stato -> now=2025-09-04 05:09:19, last=2025-09-02, today=2025-09-04
+2025-09-04 05:09:19,227 - INFO - EOD: catch-up rilevato. Ultimo EOD processato: 2025-09-02. Eseguo per 2025-09-03.
+2025-09-04 05:09:19,227 - INFO - EOD: avvio pulizia/unione per la data 2025-09-03.
+2025-09-04 05:09:19,227 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_giornaliera.py', '2025-09-03'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 05:09:20,342 - INFO - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+INFO - ================== FINE SCRIPT DI PULIZIA ===================
+2025-09-04 05:09:20,342 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 05:09:21,387 - ERROR - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+Traceback (most recent call last):
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 113, in <module>
+    pulisci_bot()
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 45, in pulisci_bot
+    f for f in os.listdir(path_input_bot)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\File_Input\\Bot'
+2025-09-04 05:09:21,388 - ERROR - EOD: script fallito (rc=1) -> ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py']
+2025-09-04 05:09:21,388 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-04 05:09:21,388 - INFO - Sleep fino a 04-09 06:05:00 (~3338s)
+2025-09-04 06:05:00,003 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-04 06:09:14,072 - INFO - A OK
+2025-09-04 06:09:14,074 - INFO - EOD: stato -> now=2025-09-04 06:09:14, last=2025-09-02, today=2025-09-04
+2025-09-04 06:09:14,075 - INFO - EOD: catch-up rilevato. Ultimo EOD processato: 2025-09-02. Eseguo per 2025-09-03.
+2025-09-04 06:09:14,075 - INFO - EOD: avvio pulizia/unione per la data 2025-09-03.
+2025-09-04 06:09:14,076 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_giornaliera.py', '2025-09-03'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 06:09:15,157 - INFO - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+INFO - ================== FINE SCRIPT DI PULIZIA ===================
+2025-09-04 06:09:15,157 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 06:09:16,201 - ERROR - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+Traceback (most recent call last):
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 113, in <module>
+    pulisci_bot()
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 45, in pulisci_bot
+    f for f in os.listdir(path_input_bot)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\File_Input\\Bot'
+2025-09-04 06:09:16,217 - ERROR - EOD: script fallito (rc=1) -> ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py']
+2025-09-04 06:09:16,217 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-04 06:09:16,217 - INFO - Sleep fino a 04-09 07:05:00 (~3343s)
+2025-09-04 07:05:00,002 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-04 07:09:41,856 - INFO - A OK
+2025-09-04 07:09:41,857 - INFO - Sono passate >= 4h dall'ultimo B: avvio B.
+2025-09-04 07:09:41,858 - INFO - Eseguo B (once): ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', WindowsPath('C:/Users/amministrazione/Desktop/Script/Sviluppo/MASE/script/gestore2.py'), '--once']
+2025-09-04 07:13:10,847 - INFO - --- Avvio Script 1: Estrazione MMSI ---
+
+--- Analizzando: Alger (Algiers) (ID: 3264) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Arzew (ID: 3277) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Ghazaouet (ID: 3271) ---
+  -> Trovate 2 nuove navi.
+
+--- Analizzando: Mostaganem (ID: 3256) ---
+  -> Trovate 2 nuove navi.
+
+--- Analizzando: Oran (ID: 3274) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Dumyat (Damietta) (ID: 3177) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: El Iskandariya (Alexandria) (ID: 86) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Sokhna Port (ID: 3178) ---
+  -> Trovate 7 nuove navi.
+
+--- Analizzando: El Dekheila (ID: 3166) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Port Said (ID: 3167) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Bizerte (ID: 3210) ---
+  -> Trovate 7 nuove navi.
+
+--- Analizzando: Sfax (ID: 3238) ---
+  -> Trovate 2 nuove navi.
+
+--- Analizzando: Sousse (ID: 3212) ---
+  -> Trovate 6 nuove navi.
+
+--- Analizzando: Tunis (ID: 3230) ---
+  -> Trovate 9 nuove navi.
+
+--- Analizzando: Casablanca (ID: 3290) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Agadir (ID: 3303) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Nador (ID: 3310) ---
+  -> Trovate 7 nuove navi.
+
+--- Analizzando: Tanger Med (ID: 3304) ---
+  -> Trovate 5 nuove navi.
+
+--- Analizzando: Tanger Med  (ID: 3296) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Abidjan (ID: 3337) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: San-Pedro (ID: 3336) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Banana (ID: 3381) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Pointe Noire (ID: 3364) ---
+  -> Trovate 3 nuove navi.
+
+--- Analizzando: Beira (ID: 3411) ---
+  -> Trovate 1 nuove navi.
+
+--- Analizzando: Maputo (ID: 3413) ---
+  -> Trovate 3 nuove navi.
+
+--- Analizzando: Nacala (ID: 3414) ---
+  -> Trovate 1 nuove navi.
+
+--- Analizzando: Quelimane (ID: 3416) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Mombasa (ID: 3429) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Cabinda (ID: 3366) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Lobito (ID: 3367) ---
+  -> Trovate 2 nuove navi.
+
+--- Analizzando: Luanda (ID: 3375) ---
+  -> Trovate 6 nuove navi.
+
+--- Analizzando: Malongo (ID: 3376) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Namibe (ID: 3365) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Soyo (ID: 3377) ---
+  -> Trovate 0 nuove navi.
+
+--- Analizzando: Takoradi (ID: 3340) ---
+  -> Trovate 3 nuove navi.
+
+--- Analizzando: Tema (ID: 417) ---
+  -> Trovate 7 nuove navi.
+
+--- Analizzando: Nouadhibou (ID: 3314) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Nouakchott (ID: 3313) ---
+  -> Trovate 9 nuove navi.
+
+--- Analizzando: Dar es Salaam (ID: 3427) ---
+  -> Trovate 10 nuove navi.
+
+--- Analizzando: Dakar (ID: 3319) ---
+  -> Trovate 10 nuove navi.
+
+Scrittura di 232 MMSI unici nel file...
+Salvataggio completato! File aggiornato: C:\Users\amministrazione\Desktop\Script\Sviluppo\MASE\Input\File_Temp\mmsi_attuali.csv
+--- FINE SCRIPT 1 ---
+--- Avvio Script 2: Elaboratore ---
+Trovate 23 navi partite. Avvio browser per tracciamento...
+  -> Tracciando MMSI partito: 209405000
+     -> Viaggio precedente trovato: da TANGER MED a ALGECIRAS
+  -> Tracciando MMSI partito: 352005420
+     -> ATTENZIONE: Errore durante il tracciamento di MMSI 352005420. list index out of range
+  -> Tracciando MMSI partito: 247083700
+     -> Viaggio precedente trovato: da GENOVA a RADES
+  -> Tracciando MMSI partito: 563238600
+     -> Viaggio precedente trovato: da SKIKDA a ARZEW
+  -> Tracciando MMSI partito: 224692000
+     -> Viaggio precedente trovato: da MOTRIL a TANGER MED
+  -> Tracciando MMSI partito: 622108427
+     -> Viaggio precedente trovato: da PORT SAID a PORT SAID
+  -> Tracciando MMSI partito: 242386400
+     -> ATTENZIONE: Errore durante il tracciamento di MMSI 242386400. list index out of range
+  -> Tracciando MMSI partito: 677037500
+     -> Viaggio precedente trovato: da ZANZIBAR a DAR ES SALAAM
+  -> Tracciando MMSI partito: 605176080
+     -> Viaggio precedente trovato: da ARZEW a ALGER
+  -> Tracciando MMSI partito: 636014200
+     -> Viaggio precedente trovato: da LAGOS a ABIDJAN
+  -> Tracciando MMSI partito: 209106000
+     -> Viaggio precedente trovato: da TANGER MED a ALGECIRAS
+  -> Tracciando MMSI partito: 212184000
+     -> Viaggio precedente trovato: da GIOIA TAURO a RADES
+  -> Tracciando MMSI partito: 249096000
+     -> Viaggio precedente trovato: da BARCELONA a ORAN
+  -> Tracciando MMSI partito: 311000671
+     -> Viaggio precedente trovato: da ALGER a ALGER
+  -> Tracciando MMSI partito: 636020984
+     -> Viaggio precedente trovato: da JEDDAH a TANGER MED
+  -> Tracciando MMSI partito: 229750000
+     -> Viaggio precedente trovato: da BEIRA a DAR ES SALAAM
+  -> Tracciando MMSI partito: 244180240
+     -> Viaggio precedente trovato: da EL DEKHEILA a EL DEKHEILA
+  -> Tracciando MMSI partito: 224093000
+     -> Viaggio precedente trovato: da MOTRIL a NADOR
+  -> Tracciando MMSI partito: 671346000
+     -> Viaggio precedente trovato: da ABU QIR a DAMIETTA
+  -> Tracciando MMSI partito: 352002681
+     -> Viaggio precedente trovato: da ISTANBUL a MOMBASA
+  -> Tracciando MMSI partito: 636093114
+     -> Viaggio precedente trovato: da REUNION a MAPUTO
+  -> Tracciando MMSI partito: 247094000
+     -> Viaggio precedente trovato: da BARCELONA a TANGER MED
+  -> Tracciando MMSI partito: 620999605
+     -> Viaggio precedente trovato: da RADES a RADES
+
+âœ… Report aggiornato e salvato in: C:\Users\amministrazione\Desktop\Script\Sviluppo\MASE\Output\Navi_Estratte\Report_Navi_Tracciate_MASTER.xlsx
+File di stato aggiornati per la prossima esecuzione.
+--- FINE SCRIPT 2 ---
+--- GESTORE MASE AVVIATO ---
+
+[FASE 1] Avvio di 'screp.py'...
+[FASE 1] 'screp.py' completato con successo.
+
+[FASE 2] Avvio di 'elaboratore.py'...
+[FASE 2] 'elaboratore.py' completato con successo.
+
+--- CORSA SINGOLA COMPLETATA ---
+2025-09-04 07:13:10,847 - INFO - B DONE
+2025-09-04 07:13:10,847 - INFO - EOD: stato -> now=2025-09-04 07:13:10, last=2025-09-02, today=2025-09-04
+2025-09-04 07:13:10,847 - INFO - EOD: catch-up rilevato. Ultimo EOD processato: 2025-09-02. Eseguo per 2025-09-03.
+2025-09-04 07:13:10,847 - INFO - EOD: avvio pulizia/unione per la data 2025-09-03.
+2025-09-04 07:13:10,847 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_giornaliera.py', '2025-09-03'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 07:13:11,935 - INFO - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+INFO - ================== FINE SCRIPT DI PULIZIA ===================
+2025-09-04 07:13:11,935 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 07:13:12,967 - ERROR - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+Traceback (most recent call last):
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 113, in <module>
+    pulisci_bot()
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 45, in pulisci_bot
+    f for f in os.listdir(path_input_bot)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\File_Input\\Bot'
+2025-09-04 07:13:12,967 - ERROR - EOD: script fallito (rc=1) -> ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py']
+2025-09-04 07:13:12,967 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-04 07:13:12,967 - INFO - Sleep fino a 04-09 08:05:00 (~3107s)
+2025-09-04 08:05:00,004 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-04 08:09:40,583 - INFO - A OK
+2025-09-04 08:09:40,591 - INFO - EOD: stato -> now=2025-09-04 08:09:40, last=2025-09-02, today=2025-09-04
+2025-09-04 08:09:40,591 - INFO - EOD: catch-up rilevato. Ultimo EOD processato: 2025-09-02. Eseguo per 2025-09-03.
+2025-09-04 08:09:40,591 - INFO - EOD: avvio pulizia/unione per la data 2025-09-03.
+2025-09-04 08:09:40,600 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_giornaliera.py', '2025-09-03'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 08:09:41,638 - INFO - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+INFO - ================== FINE SCRIPT DI PULIZIA ===================
+2025-09-04 08:09:41,638 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 08:09:42,723 - ERROR - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+Traceback (most recent call last):
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 113, in <module>
+    pulisci_bot()
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 45, in pulisci_bot
+    f for f in os.listdir(path_input_bot)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\File_Input\\Bot'
+2025-09-04 08:09:42,724 - ERROR - EOD: script fallito (rc=1) -> ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py']
+2025-09-04 08:09:42,727 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-04 08:09:42,727 - INFO - Sleep fino a 04-09 09:05:00 (~3317s)
+2025-09-04 09:05:00,001 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-04 09:09:37,489 - INFO - A OK
+2025-09-04 09:09:37,492 - INFO - EOD: stato -> now=2025-09-04 09:09:37, last=2025-09-02, today=2025-09-04
+2025-09-04 09:09:37,492 - INFO - EOD: catch-up rilevato. Ultimo EOD processato: 2025-09-02. Eseguo per 2025-09-03.
+2025-09-04 09:09:37,493 - INFO - EOD: avvio pulizia/unione per la data 2025-09-03.
+2025-09-04 09:09:37,494 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_giornaliera.py', '2025-09-03'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 09:09:38,557 - INFO - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+INFO - ================== FINE SCRIPT DI PULIZIA ===================
+2025-09-04 09:09:38,558 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 09:09:39,598 - ERROR - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+Traceback (most recent call last):
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 113, in <module>
+    pulisci_bot()
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py", line 45, in pulisci_bot
+    f for f in os.listdir(path_input_bot)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\File_Input\\Bot'
+2025-09-04 09:09:39,599 - ERROR - EOD: script fallito (rc=1) -> ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py']
+2025-09-04 09:09:39,600 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-04 09:09:39,601 - INFO - Sleep fino a 04-09 10:05:00 (~3320s)
+2025-09-04 09:36:02,162 - INFO - === Orchestratore LEAN avviato (h24/7) ===
+2025-09-04 09:36:02,163 - INFO - EOD: stato -> now=2025-09-04 09:36:02, last=2025-09-02, today=2025-09-04
+2025-09-04 09:36:02,164 - INFO - EOD: catch-up rilevato. Ultimo EOD processato: 2025-09-02. Eseguo per 2025-09-03.
+2025-09-04 09:36:02,164 - INFO - EOD: avvio pulizia/unione per la data 2025-09-03.
+2025-09-04 09:36:02,165 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_giornaliera.py', '2025-09-03'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 09:36:04,240 - INFO - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+INFO - Cartella input: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025
+INFO - Letto: Estrazione_Giornaliera_03_09_2025-00_07.xlsx (righe: 392)
+INFO - Letto: Estrazione_Giornaliera_03_09_2025-18_10.xlsx (righe: 392)
+INFO - Letto: Estrazione_Giornaliera_03_09_2025-19_09.xlsx (righe: 392)
+INFO - Letto: Estrazione_Giornaliera_03_09_2025-20_09.xlsx (righe: 392)
+INFO - Letto: Estrazione_Giornaliera_03_09_2025-21_09.xlsx (righe: 392)
+INFO - Letto: Estrazione_Giornaliera_03_09_2025-22_10.xlsx (righe: 392)
+INFO - Letto: Estrazione_Giornaliera_03_09_2025-23_09.xlsx (righe: 392)
+INFO - Uniti 7 file. Righe totali prima della pulizia: 2744
+INFO - Rimosse 0 righe completamente vuote.
+INFO - Rimosse 1889 righe duplicate.
+INFO - Numero finale di righe uniche: 855
+INFO - ================== FINE SCRIPT DI PULIZIA ===================
+2025-09-04 09:36:04,241 - ERROR - --- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\amministrazione\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py", line 1113, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\amministrazione\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 7: character maps to <undefined>
+Call stack:
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_giornaliera.py", line 189, in <module>
+    rc = pulisci_giornaliere(d)
+  File "C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_giornaliera.py", line 157, in pulisci_giornaliere
+    logging.info(f"\u2705 Pulizia completata! Dati salvati in: {percorso_output}")
+Message: '\u2705 Pulizia completata! Dati salvati in: C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\File_Output\\Estrazioni_Giornaliere_Pulite\\Giornaliera_Pulita_03-09-2025.xlsx'
+Arguments: ()
+2025-09-04 09:36:04,242 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\pulisci_bot.py'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 09:36:07,547 - ERROR - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+INFO - Trovati 25 file da analizzare per la data 04-09-2025.
+C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py:74: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df_temp['DataOraCompleta'] = pd.to_datetime(
+C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py:74: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df_temp['DataOraCompleta'] = pd.to_datetime(
+C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py:74: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df_temp['DataOraCompleta'] = pd.to_datetime(
+C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py:74: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df_temp['DataOraCompleta'] = pd.to_datetime(
+C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py:74: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df_temp['DataOraCompleta'] = pd.to_datetime(
+C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py:74: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df_temp['DataOraCompleta'] = pd.to_datetime(
+C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py:74: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df_temp['DataOraCompleta'] = pd.to_datetime(
+C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py:74: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df_temp['DataOraCompleta'] = pd.to_datetime(
+C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py:74: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df_temp['DataOraCompleta'] = pd.to_datetime(
+C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py:74: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df_temp['DataOraCompleta'] = pd.to_datetime(
+C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py:74: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df_temp['DataOraCompleta'] = pd.to_datetime(
+C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py:74: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df_temp['DataOraCompleta'] = pd.to_datetime(
+C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py:74: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df_temp['DataOraCompleta'] = pd.to_datetime(
+C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py:74: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df_temp['DataOraCompleta'] = pd.to_datetime(
+C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py:74: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df_temp['DataOraCompleta'] = pd.to_datetime(
+INFO - Trovate 309 righe nel file Bot 09012025_1353.xlsx.
+C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\pulisci_bot.py:74: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df_temp['DataOraCompleta'] = pd.to_datetime(
+INFO - Righe totali trovate prima della pulizia: 309
+INFO - Numero finale di righe uniche: 309
+INFO - \u2705 Dati del bot puliti e salvati in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Bot_Pulito\Bot_Pulito_04-09-2025.xlsx
+INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+2025-09-04 09:36:07,547 - INFO - Eseguo: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\unione_finale.py'] (cwd=C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino)
+2025-09-04 09:36:08,609 - ERROR - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+ERROR - ERRORE CRITICO nel caricamento file: [Errno 2] No such file or directory: 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\File_Output\\Estrazioni_Giornaliere_Pulite\\Giornaliera_Pulita_04-09-2025.xlsx'
+2025-09-04 09:36:08,612 - INFO - EOD completato per la data 2025-09-03.
+2025-09-04 09:36:08,622 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-04 09:36:08,623 - INFO - Sleep fino a 04-09 10:05:00 (~1731s)
+2025-09-04 10:10:36,050 - INFO - === Orchestratore LEAN avviato (h24/7) ===
+2025-09-04 10:10:36,051 - INFO - EOD: stato -> now=2025-09-04 10:10:36, last=2025-09-03, today=2025-09-04
+2025-09-04 10:10:36,052 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-04 10:10:36,053 - INFO - Sleep fino a 04-09 11:05:00 (~3263s)
+2025-09-04 10:27:26,412 - INFO - === Orchestratore LEAN avviato (h24/7) ===
+2025-09-04 10:27:26,414 - INFO - EOD: stato -> now=2025-09-04 10:27:26, last=2025-09-03, today=2025-09-04
+2025-09-04 10:27:26,415 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-04 10:27:26,416 - INFO - Sleep fino a 04-09 11:05:00 (~2253s)
+2025-09-04 11:05:00,002 - INFO - Eseguo A: ['C:\\Users\\amministrazione\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\Screperino\\estrazione_giornaliera.py']
+2025-09-04 11:09:34,226 - INFO - A OK
+2025-09-04 11:09:34,250 - INFO - EOD: stato -> now=2025-09-04 11:09:34, last=2025-09-03, today=2025-09-04
+2025-09-04 11:09:34,251 - INFO - EOD: troppo presto, ritorno e riprovo al prossimo ciclo.
+2025-09-04 11:09:34,252 - INFO - Sleep fino a 04-09 12:05:00 (~3325s)

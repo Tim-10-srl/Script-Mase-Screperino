@@ -328,3 +328,63 @@
 2025-09-02 23:30:03,163 - INFO - ✅ Pulizia completata! Dati salvati in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Estrazioni_Giornaliere_Pulite\Giornaliera_Pulita_02-09-2025.xlsx
 2025-09-02 23:30:03,173 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
 
+2025-09-03 23:30:01,013 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+2025-09-03 23:30:01,013 - WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+2025-09-03 23:30:01,013 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
+
+2025-09-04 00:09:27,857 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+2025-09-04 00:09:27,857 - WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+2025-09-04 00:09:27,857 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
+
+2025-09-04 01:09:28,357 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+2025-09-04 01:09:28,357 - WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+2025-09-04 01:09:28,357 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
+
+2025-09-04 02:13:06,587 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+2025-09-04 02:13:06,587 - WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+2025-09-04 02:13:06,587 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
+
+2025-09-04 03:11:40,591 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+2025-09-04 03:11:40,591 - WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+2025-09-04 03:11:40,591 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
+
+2025-09-04 04:09:19,129 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+2025-09-04 04:09:19,130 - WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+2025-09-04 04:09:19,130 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
+
+2025-09-04 05:09:20,277 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+2025-09-04 05:09:20,278 - WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+2025-09-04 05:09:20,278 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
+
+2025-09-04 06:09:15,088 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+2025-09-04 06:09:15,089 - WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+2025-09-04 06:09:15,089 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
+
+2025-09-04 07:13:11,857 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+2025-09-04 07:13:11,857 - WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+2025-09-04 07:13:11,857 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
+
+2025-09-04 08:09:41,577 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+2025-09-04 08:09:41,577 - WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+2025-09-04 08:09:41,577 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
+
+2025-09-04 09:09:38,484 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+2025-09-04 09:09:38,485 - WARNING - Nessuna cartella di input per la data 03-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025. Esco senza errore.
+2025-09-04 09:09:38,485 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
+
+2025-09-04 09:36:03,159 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+2025-09-04 09:36:03,160 - INFO - Cartella input: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_03_09_2025
+2025-09-04 09:36:03,569 - INFO - Letto: Estrazione_Giornaliera_03_09_2025-00_07.xlsx (righe: 392)
+2025-09-04 09:36:03,629 - INFO - Letto: Estrazione_Giornaliera_03_09_2025-18_10.xlsx (righe: 392)
+2025-09-04 09:36:03,701 - INFO - Letto: Estrazione_Giornaliera_03_09_2025-19_09.xlsx (righe: 392)
+2025-09-04 09:36:03,763 - INFO - Letto: Estrazione_Giornaliera_03_09_2025-20_09.xlsx (righe: 392)
+2025-09-04 09:36:03,828 - INFO - Letto: Estrazione_Giornaliera_03_09_2025-21_09.xlsx (righe: 392)
+2025-09-04 09:36:03,912 - INFO - Letto: Estrazione_Giornaliera_03_09_2025-22_10.xlsx (righe: 392)
+2025-09-04 09:36:03,950 - INFO - Letto: Estrazione_Giornaliera_03_09_2025-23_09.xlsx (righe: 392)
+2025-09-04 09:36:03,950 - INFO - Uniti 7 file. Righe totali prima della pulizia: 2744
+2025-09-04 09:36:03,966 - INFO - Rimosse 0 righe completamente vuote.
+2025-09-04 09:36:03,970 - INFO - Rimosse 1889 righe duplicate.
+2025-09-04 09:36:03,970 - INFO - Numero finale di righe uniche: 855
+2025-09-04 09:36:04,112 - INFO - ✅ Pulizia completata! Dati salvati in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Estrazioni_Giornaliere_Pulite\Giornaliera_Pulita_03-09-2025.xlsx
+2025-09-04 09:36:04,144 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
+
