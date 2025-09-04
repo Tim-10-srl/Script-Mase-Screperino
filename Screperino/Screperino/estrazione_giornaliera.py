@@ -6,6 +6,11 @@ from datetime import datetime, date
 import time
 import logging
 import os
+import bootstrap
+from config import SCREPERINO_ROOT  # aggiungi in cima all'import dal config
+
+
+
 
 # ... (le funzioni setup_logging e separa_data_ora rimangono invariate) ...
 
@@ -14,20 +19,30 @@ def setup_logging(log_file_path):
         log_dir = os.path.dirname(log_file_path)
         os.makedirs(log_dir, exist_ok=True)
         logger = logging.getLogger()
-        if logger.hasHandlers(): logger.handlers.clear()
-        logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename=log_file_path, filemode='a', encoding='utf-8')
+        if logger.hasHandlers():
+            logger.handlers.clear()
+        logging.basicConfig(
+            level=logging.INFO,
+            format='%(asctime)s - %(levelname)s - %(message)s',
+            filename=log_file_path,
+            filemode='a',
+            encoding='utf-8'
+        )
         console_handler = logging.StreamHandler()
         console_handler.setLevel(logging.INFO)
         formatter = logging.Formatter('%(levelname)s - %(message)s')
         console_handler.setFormatter(formatter)
         logging.getLogger().addHandler(console_handler)
-    except Exception as e: print(f"ERRORE CRITICO: Impossibile configurare il logging. Dettagli: {e}"); exit()
+    except Exception as e:
+        print(f"ERRORE CRITICO: Impossibile configurare il logging. Dettagli: {e}")
+        exit()
 
 def separa_data_ora(datetime_str):
     testo = datetime_str.strip()
     if len(testo) > 10 and testo[4] == '-' and testo[7] == '-':
         data, ora = testo[:10], testo[10:]
-        if ':' in ora: return data, ora
+        if ':' in ora:
+            return data, ora
     return testo, 'N/A'
 
 def estrai_dati_nave(mmsi):
@@ -38,7 +53,8 @@ def estrai_dati_nave(mmsi):
         response = requests.get(url, headers=headers, timeout=20)
         response.raise_for_status()
     except requests.exceptions.RequestException as e:
-        logging.error(f"ERRORE DI RETE per MMSI {mmsi}. Dettagli: {e}"); return None
+        logging.error(f"ERRORE DI RETE per MMSI {mmsi}. Dettagli: {e}")
+        return None
     
     try:
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -54,35 +70,54 @@ def estrai_dati_nave(mmsi):
         sezione_viaggi = soup.find('div', id='ft-lasttrips')
         tabella = sezione_viaggi.find('table', class_='myst-table') if sezione_viaggi else None
         if not tabella or not tabella.find('tbody'):
-            logging.warning(f"AVVISO: Tabella viaggi non trovata per MMSI {mmsi}. Salvo solo MMSI e IMO."); return dati_base
+            logging.warning(f"AVVISO: Tabella viaggi non trovata per MMSI {mmsi}. Salvo solo MMSI e IMO.")
+            return dati_base
 
         righe = tabella.find('tbody').find_all('tr')
         if righe:
-            prima_riga = righe[0]; celle = prima_riga.find_all('td')
+            prima_riga = righe[0]
+            celle = prima_riga.find_all('td')
             if len(celle) > 5:
                 date_departure, time_departure = separa_data_ora(celle[2].get_text(strip=True))
                 date_arrival, time_arrival = separa_data_ora(celle[4].get_text(strip=True))
                 duration_cell = prima_riga.find('td', class_='table-more-td')
                 duration = duration_cell.get('data-dur', 'N/A').strip() if duration_cell else 'N/A'
-                viaggio_info = {'Origin': celle[1].get_text(strip=True), 'Date Departure': date_departure, 'Time Departure': time_departure, 'Destination': celle[3].get_text(strip=True), 'Date Arrival': date_arrival, 'Time Arrival': time_arrival, 'Duration': duration, 'Distance': celle[5].get_text(strip=True)}
+                viaggio_info = {
+                    'Origin': celle[1].get_text(strip=True),
+                    'Date Departure': date_departure,
+                    'Time Departure': time_departure,
+                    'Destination': celle[3].get_text(strip=True),
+                    'Date Arrival': date_arrival,
+                    'Time Arrival': time_arrival,
+                    'Duration': duration,
+                    'Distance': celle[5].get_text(strip=True)
+                }
                 dati_base.update(viaggio_info)
                 logging.info(f"Trovato ultimo viaggio per MMSI {mmsi}.")
         return dati_base
     except Exception as e:
-        logging.error(f"ERRORE DI PARSING per MMSI {mmsi}. Dettagli: {e}"); return None
+        logging.error(f"ERRORE DI PARSING per MMSI {mmsi}. Dettagli: {e}")
+        return None
 
 def main():
-    path_input = r"C:\Users\security\Documents\Codice\Python\Screperino\File_Input\MMSI"
-    path_output_base = r"C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Estrazioni_Giornaliere"
-    path_log = r"C:\Users\security\Documents\Codice\Python\Screperino\Log\Log_Estrazione.log"
+
+    path_input = os.path.join(SCREPERINO_ROOT, "File_Input", "MMSI")
+    path_output_base = os.path.join(SCREPERINO_ROOT, "File_Output", "Estrazioni_Giornaliere")
+    path_log = os.path.join(SCREPERINO_ROOT, "Log", "Log_Estrazione.log")
+
     setup_logging(path_log)
     logging.info("================== AVVIO SCRIPT DI ESTRAZIONE (MMSI+IMO) ==================")
+
     file_input = os.path.join(path_input, 'MMSI.xlsx')
     try:
         df_input = pd.read_excel(file_input)
-        if 'MMSI' not in df_input.columns: logging.error(f"ERRORE CRITICO: Colonna 'MMSI' non trovata in '{file_input}'."); return
+        if 'MMSI' not in df_input.columns:
+            logging.error(f"ERRORE CRITICO: Colonna 'MMSI' non trovata in '{file_input}'.")
+            return
         lista_mmsi = df_input['MMSI'].dropna().astype(int).tolist()
-    except Exception as e: logging.error(f"ERRORE CRITICO: Impossibile leggere il file di input. Dettagli: {e}"); return
+    except Exception as e:
+        logging.error(f"ERRORE CRITICO: Impossibile leggere il file di input. Dettagli: {e}")
+        return
     
     dati_totali = [dati_nave for mmsi in lista_mmsi if (dati_nave := estrai_dati_nave(str(mmsi))) is not None]
     time.sleep(1)
@@ -101,8 +136,10 @@ def main():
             df_output = df_output.reindex(columns=colonne_ordinate)
             df_output.to_excel(percorso_completo_output, index=False)
             logging.info(f"✅ Estrazione completata! Dati salvati in: {percorso_completo_output}")
-        except Exception as e: logging.error(f"ERRORE CRITICO: Impossibile salvare il file di output. Dettagli: {e}")
-    else: logging.warning("❌ Estrazione completata, ma nessun dato è stato raccolto.")
+        except Exception as e:
+            logging.error(f"ERRORE CRITICO: Impossibile salvare il file di output. Dettagli: {e}")
+    else:
+        logging.warning("❌ Estrazione completata, ma nessun dato è stato raccolto.")
 
 if __name__ == "__main__":
     main()

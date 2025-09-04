@@ -1,4 +1,3 @@
-
 # --- SAFE PRINT / UTF-8 console ---
 import sys
 if hasattr(sys.stdout, "reconfigure"):
@@ -24,6 +23,7 @@ import pandas as pd
 import time
 import re
 import os
+import shutil
 from datetime import datetime
 from bs4 import BeautifulSoup
 import random
@@ -37,13 +37,17 @@ from chrome_utils import kill_zombie, new_chrome_or_exit, cleanup_profile
 from selenium.webdriver.support.ui import WebDriverWait
 from chrome_utils import kill_zombie, new_chrome_or_exit, cleanup_profile
 from selenium.webdriver.support import expected_conditions as EC
+import bootstrap
+
+# === PATH da config ===
+from config import MASE_TEMP, MASE_OUTPUT_NAVI, MASE_CHROME_PROFILE
 
 # --- CONFIGURAZIONE ---
-PATH_FILE_TEMP = r'C:\Users\security\Documents\Codice\Python\MASE\Input\File_Temp'
+PATH_FILE_TEMP = str(MASE_TEMP)
 FILE_PRECEDENTE = os.path.join(PATH_FILE_TEMP, 'mmsi_precedenti.csv')
-FILE_ATTUALE = os.path.join(PATH_FILE_TEMP, 'mmsi_attuali.csv')
-PATH_OUTPUT = r"C:\Users\security\Documents\Codice\Python\MASE\Output\Navi_Estratte"
-BASE_URL = 'https://www.myshiptracking.com'
+FILE_ATTUALE   = os.path.join(PATH_FILE_TEMP, 'mmsi_attuali.csv')
+PATH_OUTPUT    = str(MASE_OUTPUT_NAVI)
+BASE_URL       = 'https://www.myshiptracking.com'
 
 def separa_data_ora_e_formatta(datetime_str):
     """
@@ -54,22 +58,16 @@ def separa_data_ora_e_formatta(datetime_str):
         return 'NO DATA', 'NO DATA'
     try:
         clean_str = re.sub('<[^<]+?>', '', datetime_str).strip()
-        
-        # Cerca il formato senza spazio (es. 2025-08-1823:01)
         match = re.match(r'(\d{4}-\d{2}-\d{2})(\d{2}:\d{2}.*)', clean_str)
         if match:
             data_str = match.group(1)
             ora_str = match.group(2)
         else:
-            # Altrimenti, divide con lo spazio
             parts = clean_str.split(' ', 1)
             data_str = parts[0]
             ora_str = parts[1] if len(parts) > 1 else 'N/D'
-
-        # Formatta la data in formato italiano
         data_obj = datetime.strptime(data_str, '%Y-%m-%d')
         data_italiana = data_obj.strftime('%d/%m/%Y')
-        
         return data_italiana, ora_str
     except:
         return datetime_str, 'N/D'
@@ -121,29 +119,28 @@ def main():
     
     try:
         df_precedente = pd.read_csv(FILE_PRECEDENTE)
-        df_attuale = pd.read_csv(FILE_ATTUALE)
+        df_attuale    = pd.read_csv(FILE_ATTUALE)
         mappa_porti_precedenti = pd.Series(df_precedente.PORTO.values, index=df_precedente.MMSI.astype(str)).to_dict()
         set_precedente = set(df_precedente['MMSI'].astype(str))
-        set_attuale = set(df_attuale['MMSI'].astype(str))
-        navi_partite = set_precedente.difference(set_attuale)
+        set_attuale    = set(df_attuale['MMSI'].astype(str))
+        navi_partite   = set_precedente.difference(set_attuale)
         
         if not navi_partite:
             print("Nessuna nave è partita.")
         else:
             print(f"Trovate {len(navi_partite)} navi partite. Avvio browser per tracciamento...")
-            
-            options = Options()
-        try:
-            options.add_argument(r"user-data-dir=C:\Users\security\chrome-test-profile")
-            kill_zombie()
-            driver, __prof = new_chrome_or_exit(headless=True)
-            wait = WebDriverWait(driver, 15)
-        except Exception as e:
-            print(f"ERRORE: Impossibile avviare Chrome per il tracciamento. {e}")
-            return
 
-        dati_completi = []
-        for mmsi in navi_partite:
+            # Avvio Chrome SOLO se serve davvero
+            try:
+                kill_zombie()
+                driver, __prof = new_chrome_or_exit(headless=True)
+                wait = WebDriverWait(driver, 15)
+            except Exception as e:
+                print(f"ERRORE: Impossibile avviare Chrome per il tracciamento. {e}")
+                return
+
+            dati_completi = []
+            for mmsi in navi_partite:
                 porto_di_riferimento = mappa_porti_precedenti.get(mmsi, "SCONOSCIUTO")
                 dati_viaggio = estrai_dati_viaggio(driver, wait, mmsi)
                 
@@ -153,9 +150,10 @@ def main():
                         dati_viaggio['Porto Partenza'] = porto_di_riferimento
                         dati_completi.append(dati_viaggio)
                 time.sleep(1)
-        cleanup_profile(driver, __prof)
 
-        if dati_completi:
+            cleanup_profile(driver, __prof)
+
+            if dati_completi:
                 PERCORSO_REPORT_MASTER = os.path.join(PATH_OUTPUT, 'Report_Navi_Tracciate_MASTER.xlsx')
                 df_nuovi = pd.DataFrame(dati_completi)
                 
@@ -183,25 +181,34 @@ def main():
                 df_aggiornato = df_aggiornato.reindex(columns=colonne_finali)
                 df_aggiornato.drop_duplicates(subset=['MMSI', 'Data Partenza', 'Ora Partenza'], keep='last', inplace=True)
                 
-                # --- NUOVO BLOCCO CORRETTO ---
                 import os as __os
-
-                # Creiamo un nome file temporaneo che finisca con .xlsx
                 percorso_senza_ext, estensione = __os.path.splitext(PERCORSO_REPORT_MASTER)
                 __tmp = f"{percorso_senza_ext}_temp{estensione}"
-
-                # Salviamo sul file temporaneo (ora pandas capisce da solo l'engine)
                 df_aggiornato.to_excel(__tmp, index=False)
-
-                # Eseguiamo la sostituzione atomica per avere il file finale
                 __os.replace(__tmp, PERCORSO_REPORT_MASTER)
                 safe_print(f"\n✅ Report aggiornato e salvato in: {PERCORSO_REPORT_MASTER}")
 
     except FileNotFoundError as e:
         print(f"ATTENZIONE: File non trovato durante il confronto. {e}")
     
+    # --- BLOCCO STORICO + SWITCH (INVARIATO) ---
     try:
-        if os.path.exists(FILE_PRECEDENTE): os.remove(FILE_PRECEDENTE)
+        # Archivio del precedente prima dello switch
+        history_dir = os.path.join(PATH_FILE_TEMP, 'history')
+        os.makedirs(history_dir, exist_ok=True)
+        if os.path.exists(FILE_PRECEDENTE):
+            stamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+            hist_path = os.path.join(history_dir, f"mmsi_precedenti_{stamp}.csv")
+            try:
+                shutil.copy2(FILE_PRECEDENTE, hist_path)
+                print(f"Storico salvato: {hist_path}")
+            except Exception as _e:
+                print(f"ATTENZIONE: non riesco a salvare lo storico: {_e}")
+            # Ora posso rimuovere il precedente prima del rename
+            try:
+                os.remove(FILE_PRECEDENTE)
+            except OSError:
+                pass
         if os.path.exists(FILE_ATTUALE):
             os.rename(FILE_ATTUALE, FILE_PRECEDENTE)
             print(f"File di stato aggiornati per la prossima esecuzione.")

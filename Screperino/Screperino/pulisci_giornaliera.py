@@ -14,17 +14,20 @@ import os
 import sys
 import logging
 from datetime import datetime, date, timedelta
+import bootstrap
 
 import pandas as pd
 
+# importa i path centralizzati
+from config import SCREPERINO_ROOT
 
 # =========================
 # Config percorsi
 # =========================
-PATH_INPUT_BASE = r"C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Estrazioni_Giornaliere"
-PATH_OUTPUT_PULITE = r"C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Estrazioni_Giornaliere_Pulite"
-PATH_LOG = r"C:\Users\security\Documents\Codice\Python\Screperino\Log"
-LOG_FILE = os.path.join(PATH_LOG, "Log_Pulizia.txt")
+PATH_INPUT_BASE    = os.path.join(SCREPERINO_ROOT, "File_Output", "Estrazioni_Giornaliere")
+PATH_OUTPUT_PULITE = os.path.join(SCREPERINO_ROOT, "File_Output", "Estrazioni_Giornaliere_Pulite")
+PATH_LOG           = os.path.join(SCREPERINO_ROOT, "Log")
+LOG_FILE           = os.path.join(PATH_LOG, "Log_Pulizia.txt")
 
 
 # =========================
@@ -185,4 +188,3 @@ if __name__ == "__main__":
     d = _parse_cli_date()
     rc = pulisci_giornaliere(d)
     sys.exit(rc if isinstance(rc, int) else 0)
-

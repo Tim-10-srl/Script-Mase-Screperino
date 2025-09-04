@@ -1,4 +1,3 @@
-
 # --- SAFE PRINT / UTF-8 console ---
 import sys
 if hasattr(sys.stdout, "reconfigure"):
@@ -36,10 +35,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from chrome_utils import kill_zombie, new_chrome_or_exit, cleanup_profile
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
+import bootstrap
+
+# === PATH da config ===
+from config import MASE_INPUT_SCREP_PORTI, MASE_TEMP, MASE_CHROME_PROFILE
 
 # --- CONFIGURAZIONE ---
-FILE_INPUT_PORTI = r'C:\Users\security\Documents\Codice\Python\MASE\Input\Screp\Porti\porti_screp.xlsx'
-PATH_FILE_TEMP = r'C:\Users\security\Documents\Codice\Python\MASE\Input\File_Temp'
+FILE_INPUT_PORTI = str(MASE_INPUT_SCREP_PORTI / "porti_screp.xlsx")
+PATH_FILE_TEMP   = str(MASE_TEMP)
 FILE_OUTPUT_MMSI = os.path.join(PATH_FILE_TEMP, 'mmsi_attuali.csv')
 BASE_URL = 'https://www.myshiptracking.com'
 
@@ -47,8 +50,8 @@ def main():
     print("--- Avvio Script 1: Estrazione MMSI ---")
     options = Options()
     try:
-        # Usa un profilo di test per memorizzare i cookie e partire in automatico
-        options.add_argument(r"user-data-dir=C:\Users\security\chrome-test-profile")
+        # profilo locale nel progetto (al posto di C:\Users\security\...)
+        options.add_argument(f"user-data-dir={MASE_CHROME_PROFILE}")
         kill_zombie()
         driver, __prof = new_chrome_or_exit(headless=False)
         driver.maximize_window()

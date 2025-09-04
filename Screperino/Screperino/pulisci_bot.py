@@ -2,6 +2,10 @@ import pandas as pd
 import os
 from datetime import datetime, date, timedelta
 import logging
+import bootstrap
+
+# importa i path centralizzati
+from config import SCREPERINO_ROOT
 
 def setup_logging(log_path):
     """Configura il logging per scrivere su un percorso specifico."""
@@ -10,7 +14,13 @@ def setup_logging(log_path):
     logger = logging.getLogger()
     if logger.hasHandlers():
         logger.handlers.clear()
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename=log_file, filemode='a', encoding='utf-8')
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        filename=log_file,
+        filemode='a',
+        encoding='utf-8'
+    )
     console_handler = logging.StreamHandler()
     console_handler.setLevel(logging.INFO)
     formatter = logging.Formatter('%(levelname)s - %(message)s')
@@ -21,17 +31,26 @@ def pulisci_bot(data_da_processare=None):
     """
     Pulisce i file del bot per un giorno specifico, scansionando tutti i file ogni volta.
     """
-    path_input_bot = r"C:\Users\security\Documents\Codice\Python\Screperino\File_Input\Bot"
-    path_output_bot = r"C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Bot_Pulito"
-    path_log_script = r"C:\Users\security\Documents\Codice\Python\Screperino\Log"
+    path_input_bot  = os.path.join(SCREPERINO_ROOT, "File_Input", "Bot")
+    path_output_bot = os.path.join(SCREPERINO_ROOT, "File_Output", "Bot_Pulito")
+    path_log_script = os.path.join(SCREPERINO_ROOT, "Log")
+
 
     setup_logging(path_log_script)
     logging.info("================== AVVIO SCRIPT PULIZIA BOT ==================")
 
     if data_da_processare is None:
         data_da_processare = date.today()
+
+    if not os.path.isdir(path_input_bot):
+        logging.warning(f"Cartella bot inesistente: {path_input_bot}. Skip.")
+        return
+
     
-    file_da_processare = [f for f in os.listdir(path_input_bot) if f.endswith('.xlsx') and not f.startswith('~$')]
+    file_da_processare = [
+        f for f in os.listdir(path_input_bot)
+        if f.endswith('.xlsx') and not f.startswith('~$')
+    ]
     
     if not file_da_processare:
         logging.warning("Nessun file .xlsx trovato nella cartella del bot.")
@@ -84,14 +103,29 @@ def pulisci_bot(data_da_processare=None):
         nome_file_output = f"Bot_Pulito_{data_da_processare.strftime('%d-%m-%Y')}.xlsx"
         percorso_completo_output = os.path.join(path_output_bot, nome_file_output)
         
-       
-        colonne_da_salvare = [col for col in ['data partenza', 'nave', 'porto partenza', 'orario partenza', 'porto arrivo', 'orario arrivo', 'durata viaggio', 'operatore', 'prezzo', 'fonte', 'note'] if col in df_totale.columns]
+        colonne_da_salvare = [
+            col for col in [
+                'data partenza', 'nave', 'porto partenza', 'orario partenza',
+                'porto arrivo', 'orario arrivo', 'durata viaggio',
+                'operatore', 'prezzo', 'fonte', 'note'
+            ] if col in df_totale.columns
+        ]
         df_totale = df_totale[colonne_da_salvare]
 
         df_totale.to_excel(percorso_completo_output, index=False)
         logging.info(f"✅ Dati del bot puliti e salvati in: {percorso_completo_output}")
 
+def _parse_cli_date():
+    import sys
+    raw = sys.argv[1].strip() if len(sys.argv) >= 2 else ""
+    for fmt in ("%Y-%m-%d", "%d-%m-%Y", "%d/%m/%Y"):
+        try:
+            return datetime.strptime(raw, fmt).date()
+        except Exception:
+            pass
+    return None  # niente data -> ci pensa il default nel corpo
+
 if __name__ == "__main__":
-    
-    pulisci_bot()
+    d = _parse_cli_date()
+    pulisci_bot(d or date.today())
     logging.info("================== FINE SCRIPT PULIZIA BOT ===================\n")

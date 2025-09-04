@@ -1,23 +1,18 @@
 import os, sys, time, subprocess, logging
 from logging.handlers import RotatingFileHandler
 from datetime import datetime, timedelta, date
+import bootstrap
 
-# === CONFIG ===
-PYTHON_A = r"C:\Users\security\AppData\Local\anaconda3\python.exe"
-PYTHON_B = r"C:\Users\security\AppData\Local\anaconda3\python.exe"
-A_DIR    = r"C:\Users\security\Documents\Codice\Python\Screperino\Screperino"
-B_FILE   = r"C:\Users\security\Documents\Codice\Python\Mase\script\gestore2.py"
-LOG_DIR  = r"C:\Users\security\Documents\Codice\Python\Screperino\Log"
-LAST_B   = os.path.join(LOG_DIR, "last_b_run.txt")
-# --- EOD (End Of Day) ---
-EOD_HOUR = 23
-EOD_MIN  = 30
-LAST_EOD = os.path.join(LOG_DIR, "last_eod.txt")
+from config import (
+    PYTHON_A, PYTHON_B, A_DIR, B_FILE, LOG_DIR, LAST_B, LAST_EOD,
+    EOD_HOUR, EOD_MIN, B_EVERY_H, A_MINUTE, ensure_dirs
+)
 
-B_EVERY_H = 4
-A_MINUTE  = 5  # esegui A a :05
+# prepara log-dir
+ensure_dirs()
 
-# === LOGGING leggero con rotazione ===
+
+# Crea la cartella di log se non esiste
 os.makedirs(LOG_DIR, exist_ok=True)
 logger = logging.getLogger("orchestratore")
 logger.setLevel(logging.INFO)
@@ -85,8 +80,8 @@ def run_eod_for_date(target_date: date):
         run_and_log([PYTHON_A, os.path.join(A_DIR, "pulisci_giornaliera.py"), target_date.isoformat()], A_DIR)
 
         # gli altri due come prima (se un giorno servirà la data, estendili in modo analogo)
-        run_and_log([PYTHON_A, os.path.join(A_DIR, "pulisci_bot.py")], A_DIR)
-        run_and_log([PYTHON_A, os.path.join(A_DIR, "unione_finale.py")], A_DIR)
+        run_and_log([PYTHON_A, os.path.join(A_DIR, "pulisci_bot.py"), target_date.isoformat()], A_DIR)
+        run_and_log([PYTHON_A, os.path.join(A_DIR, "unione_finale.py"), target_date.isoformat()], A_DIR)
 
         # scrivo la *data processata* (non l'istante di esecuzione)
         write_last_eod_for_day(target_date)
