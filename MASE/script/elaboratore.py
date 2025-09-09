@@ -48,6 +48,7 @@ FILE_PRECEDENTE = os.path.join(PATH_FILE_TEMP, 'mmsi_precedenti.csv')
 FILE_ATTUALE   = os.path.join(PATH_FILE_TEMP, 'mmsi_attuali.csv')
 PATH_OUTPUT    = str(MASE_OUTPUT_NAVI)
 BASE_URL       = 'https://www.myshiptracking.com'
+MAX_RETRY = 6  # massimo tentativi di retry per MMSI; oltre questa soglia non si riprova
 
 def separa_data_ora_e_formatta(datetime_str):
     """
@@ -120,11 +121,23 @@ def main():
     try:
         df_precedente = pd.read_csv(FILE_PRECEDENTE)
         df_attuale    = pd.read_csv(FILE_ATTUALE)
-        mappa_porti_precedenti = pd.Series(df_precedente.PORTO.values, index=df_precedente.MMSI.astype(str)).to_dict()
-        set_precedente = set(df_precedente['MMSI'].astype(str))
+
+        # --- NEW: garantisco/uso RETRY_COUNT ed escludo oltre soglia ---
+        if 'RETRY_COUNT' not in df_precedente.columns:
+            df_precedente['RETRY_COUNT'] = 0
+        df_precedente['RETRY_COUNT'] = pd.to_numeric(df_precedente['RETRY_COUNT'], errors='coerce').fillna(0).astype(int)
+
+        df_prev_retry_ok = df_precedente[df_precedente['RETRY_COUNT'] < MAX_RETRY].copy()
+        skipped = df_precedente.shape[0] - df_prev_retry_ok.shape[0]
+        if skipped > 0:
+            print(f"[RETRY] Skippati {skipped} MMSI con RETRY_COUNT >= {MAX_RETRY}")
+
+        mappa_porti_precedenti = pd.Series(df_prev_retry_ok.PORTO.values, index=df_prev_retry_ok.MMSI.astype(str)).to_dict()
+        set_precedente = set(df_prev_retry_ok['MMSI'].astype(str))
         set_attuale    = set(df_attuale['MMSI'].astype(str))
         navi_partite   = set_precedente.difference(set_attuale)
-        
+        # --- END NEW ---
+
         if not navi_partite:
             print("Nessuna nave è partita.")
         else:
@@ -140,24 +153,98 @@ def main():
                 return
 
             dati_completi = []
+            retry_entries = [] 
             for mmsi in navi_partite:
                 porto_di_riferimento = mappa_porti_precedenti.get(mmsi, "SCONOSCIUTO")
-                dati_viaggio = estrai_dati_viaggio(driver, wait, mmsi)
-                
-                if dati_viaggio and 'Porto Partenza Scraped' in dati_viaggio:
-                    if porto_di_riferimento.lower() in dati_viaggio['Porto Partenza Scraped'].lower():
+                try:
+                    dati_viaggio = estrai_dati_viaggio(driver, wait, mmsi)
+
+                    # Se ho QUALSIASI dato utile, salvo (anche solo "viaggio precedente")
+                    if dati_viaggio and (
+                        'Porto Partenza Scraped' in dati_viaggio
+                        or 'Origin' in dati_viaggio
+                        or 'Departure' in dati_viaggio
+                        or 'Destination' in dati_viaggio
+                        or 'Arrival' in dati_viaggio
+                    ):
                         dati_viaggio['MMSI'] = mmsi
                         dati_viaggio['Porto Partenza'] = porto_di_riferimento
                         dati_completi.append(dati_viaggio)
-                time.sleep(1)
+                    else:
+                        # niente di utile: metto in retry per il prossimo ciclo
+                        retry_entries.append((mmsi, porto_di_riferimento))
+
+                except Exception as e:
+                    print(f"     -> ATTENZIONE: Errore durante il tracciamento di MMSI {mmsi}. {e}")
+                    retry_entries.append((mmsi, porto_di_riferimento))
+
+                finally:
+                    time.sleep(1)
 
             cleanup_profile(driver, __prof)
+
+            # --- NEW: RE-QUEUE con incremento RETRY_COUNT in mmsi_attuali.csv ---
+            try:
+                if retry_entries:
+                    print(f"[RETRY] Re-inserisco {len(retry_entries)} MMSI in mmsi_attuali.csv per il prossimo giro.")
+                    try:
+                        df_att = pd.read_csv(FILE_ATTUALE)
+                    except FileNotFoundError:
+                        df_att = pd.DataFrame(columns=["MMSI","DATA ESTRAZIONE","ORA ESTRAZIONE","PORTO","RETRY_COUNT"])
+
+                    # normalizzo schema
+                    for col in ["MMSI","DATA ESTRAZIONE","ORA ESTRAZIONE","PORTO","RETRY_COUNT"]:
+                        if col not in df_att.columns:
+                            df_att[col] = None
+
+                    df_att["MMSI"] = df_att["MMSI"].astype(str).str.strip()
+                    df_att["RETRY_COUNT"] = pd.to_numeric(df_att["RETRY_COUNT"], errors="coerce").fillna(0).astype(int)
+
+                    oggi_data = datetime.now().strftime("%Y-%m-%d")
+                    ora_now   = datetime.now().strftime("%H:%M:%S")
+
+                    rows = []
+                    for mmsi_retry, porto_ref in retry_entries:
+                        rows.append({
+                            "MMSI": str(mmsi_retry),
+                            "DATA ESTRAZIONE": oggi_data,
+                            "ORA ESTRAZIONE": ora_now,
+                            "PORTO": porto_ref if isinstance(porto_ref, str) else "SCONOSCIUTO"
+                        })
+                    df_retry = pd.DataFrame(rows, columns=["MMSI","DATA ESTRAZIONE","ORA ESTRAZIONE","PORTO"])
+
+                    # merge per incrementare contatore
+                    df_merge = df_retry.merge(
+                        df_att[["MMSI","RETRY_COUNT"]],
+                        on="MMSI", how="left"
+                    )
+                    df_merge["RETRY_COUNT"] = df_merge["RETRY_COUNT"].fillna(0).astype(int) + 1
+
+                    # upsert in df_att: sostituisco le vecchie righe dei medesimi MMSI
+                    df_att = df_att[~df_att["MMSI"].isin(df_merge["MMSI"])]
+                    df_upd = df_merge[["MMSI","DATA ESTRAZIONE","ORA ESTRAZIONE","PORTO","RETRY_COUNT"]]
+                    df_att = pd.concat([df_att, df_upd], ignore_index=True)
+
+                    # salvataggio atomico
+                    tmp = FILE_ATTUALE + ".tmp"
+                    df_att.to_csv(tmp, index=False)
+                    os.replace(tmp, FILE_ATTUALE)
+
+                    # log informativo: chi ha raggiunto soglia
+                    over = df_upd[df_upd["RETRY_COUNT"] >= MAX_RETRY]["MMSI"].tolist()
+                    if over:
+                        print(f"[RETRY] Raggiunta soglia {MAX_RETRY} per {len(over)} MMSI: verranno ignorati dal prossimo ciclo.")
+            except Exception as e:
+                print(f"[RETRY] ATTENZIONE: non riesco a reinserire i falliti in mmsi_attuali.csv: {e}")
+            # --- END NEW ---
 
             if dati_completi:
                 PERCORSO_REPORT_MASTER = os.path.join(PATH_OUTPUT, 'Report_Navi_Tracciate_MASTER.xlsx')
                 df_nuovi = pd.DataFrame(dati_completi)
                 
                 # --- GESTIONE DATI E COLONNE ---
+                estrazione_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                df_nuovi["Data Estrazione"] = estrazione_ts
                 df_nuovi['Data Partenza'], df_nuovi['Ora Partenza'] = zip(*df_nuovi.get('Data Partenza Completa', pd.Series(dtype='str')).fillna('NO DATA').apply(separa_data_ora_e_formatta))
                 df_nuovi['Data Arrivo'], df_nuovi['Ora Arrivo'] = zip(*df_nuovi.get('Data Arrivo Completa', pd.Series(dtype='str')).fillna('NO DATA').apply(separa_data_ora_e_formatta))
                 
@@ -176,7 +263,7 @@ def main():
                     'MMSI', 'Porto Partenza', 'Data Partenza', 'Ora Partenza', 
                     'Porto Arrivo', 'Data Arrivo', 'Ora Arrivo',
                     'Porto Partenza (Old)', 'Data Partenza (Old)', 'Ora Partenza (Old)',
-                    'Porto Arrivo (Old)', 'Data Arrivo (Old)', 'Ora Arrivo (Old)'
+                    'Porto Arrivo (Old)', 'Data Arrivo (Old)', 'Ora Arrivo (Old)','Data Estrazione'
                 ]
                 df_aggiornato = df_aggiornato.reindex(columns=colonne_finali)
                 df_aggiornato.drop_duplicates(subset=['MMSI', 'Data Partenza', 'Ora Partenza'], keep='last', inplace=True)
@@ -185,7 +272,7 @@ def main():
                 percorso_senza_ext, estensione = __os.path.splitext(PERCORSO_REPORT_MASTER)
                 __tmp = f"{percorso_senza_ext}_temp{estensione}"
                 df_aggiornato.to_excel(__tmp, index=False)
-                __os.replace(__tmp, PERCORSO_REPORT_MASTER)
+                os.replace(__tmp, PERCORSO_REPORT_MASTER)
                 safe_print(f"\n✅ Report aggiornato e salvato in: {PERCORSO_REPORT_MASTER}")
 
     except FileNotFoundError as e:

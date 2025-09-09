@@ -388,3 +388,165 @@
 2025-09-04 09:36:04,112 - INFO - ✅ Pulizia completata! Dati salvati in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Estrazioni_Giornaliere_Pulite\Giornaliera_Pulita_03-09-2025.xlsx
 2025-09-04 09:36:04,144 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
 
+2025-09-04 23:30:01,086 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+2025-09-04 23:30:01,087 - INFO - Cartella input: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_04_09_2025
+2025-09-04 23:30:01,569 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-00_09.xlsx (righe: 392)
+2025-09-04 23:30:01,640 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-01_09.xlsx (righe: 392)
+2025-09-04 23:30:01,748 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-02_09.xlsx (righe: 392)
+2025-09-04 23:30:01,812 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-03_11.xlsx (righe: 390)
+2025-09-04 23:30:01,877 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-04_09.xlsx (righe: 392)
+2025-09-04 23:30:01,963 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-05_09.xlsx (righe: 392)
+2025-09-04 23:30:02,028 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-06_09.xlsx (righe: 392)
+2025-09-04 23:30:02,095 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-07_09.xlsx (righe: 392)
+2025-09-04 23:30:02,162 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-08_09.xlsx (righe: 392)
+2025-09-04 23:30:02,229 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-09_09.xlsx (righe: 391)
+2025-09-04 23:30:02,294 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-11_09.xlsx (righe: 392)
+2025-09-04 23:30:02,358 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-12_05.xlsx (righe: 392)
+2025-09-04 23:30:02,425 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-13_09.xlsx (righe: 392)
+2025-09-04 23:30:02,510 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-14_09.xlsx (righe: 391)
+2025-09-04 23:30:02,576 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-15_09.xlsx (righe: 392)
+2025-09-04 23:30:02,641 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-16_09.xlsx (righe: 392)
+2025-09-04 23:30:02,705 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-17_09.xlsx (righe: 392)
+2025-09-04 23:30:02,771 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-18_09.xlsx (righe: 391)
+2025-09-04 23:30:02,836 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-19_09.xlsx (righe: 392)
+2025-09-04 23:30:02,902 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-20_08.xlsx (righe: 392)
+2025-09-04 23:30:02,967 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-21_09.xlsx (righe: 391)
+2025-09-04 23:30:03,032 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-22_09.xlsx (righe: 392)
+2025-09-04 23:30:03,103 - INFO - Letto: Estrazione_Giornaliera_04_09_2025-23_08.xlsx (righe: 392)
+2025-09-04 23:30:03,105 - INFO - Uniti 23 file. Righe totali prima della pulizia: 9010
+2025-09-04 23:30:03,111 - INFO - Rimosse 0 righe completamente vuote.
+2025-09-04 23:30:03,121 - INFO - Rimosse 7729 righe duplicate.
+2025-09-04 23:30:03,121 - INFO - Numero finale di righe uniche: 1281
+2025-09-04 23:30:03,333 - INFO - ✅ Pulizia completata! Dati salvati in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Estrazioni_Giornaliere_Pulite\Giornaliera_Pulita_04-09-2025.xlsx
+2025-09-04 23:30:03,370 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
+
+2025-09-05 23:30:01,078 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+2025-09-05 23:30:01,080 - INFO - Cartella input: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_05_09_2025
+2025-09-05 23:30:01,516 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-00_09.xlsx (righe: 392)
+2025-09-05 23:30:01,582 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-01_09.xlsx (righe: 392)
+2025-09-05 23:30:01,647 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-02_08.xlsx (righe: 392)
+2025-09-05 23:30:01,712 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-03_10.xlsx (righe: 391)
+2025-09-05 23:30:01,777 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-04_08.xlsx (righe: 392)
+2025-09-05 23:30:01,863 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-05_09.xlsx (righe: 392)
+2025-09-05 23:30:01,927 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-06_09.xlsx (righe: 392)
+2025-09-05 23:30:01,993 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-07_09.xlsx (righe: 392)
+2025-09-05 23:30:02,059 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-08_09.xlsx (righe: 392)
+2025-09-05 23:30:02,126 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-09_09.xlsx (righe: 392)
+2025-09-05 23:30:02,191 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-10_09.xlsx (righe: 391)
+2025-09-05 23:30:02,258 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-11_09.xlsx (righe: 392)
+2025-09-05 23:30:02,312 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-12_09.xlsx (righe: 392)
+2025-09-05 23:30:02,384 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-13_09.xlsx (righe: 391)
+2025-09-05 23:30:02,437 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-14_09.xlsx (righe: 391)
+2025-09-05 23:30:02,491 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-15_09.xlsx (righe: 391)
+2025-09-05 23:30:02,546 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-16_09.xlsx (righe: 392)
+2025-09-05 23:30:02,603 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-17_09.xlsx (righe: 392)
+2025-09-05 23:30:02,655 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-18_09.xlsx (righe: 391)
+2025-09-05 23:30:02,709 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-19_09.xlsx (righe: 392)
+2025-09-05 23:30:02,762 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-20_09.xlsx (righe: 392)
+2025-09-05 23:30:02,814 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-21_10.xlsx (righe: 392)
+2025-09-05 23:30:02,888 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-22_09.xlsx (righe: 391)
+2025-09-05 23:30:02,942 - INFO - Letto: Estrazione_Giornaliera_05_09_2025-23_09.xlsx (righe: 392)
+2025-09-05 23:30:02,945 - INFO - Uniti 24 file. Righe totali prima della pulizia: 9401
+2025-09-05 23:30:02,951 - INFO - Rimosse 0 righe completamente vuote.
+2025-09-05 23:30:02,962 - INFO - Rimosse 8067 righe duplicate.
+2025-09-05 23:30:02,962 - INFO - Numero finale di righe uniche: 1334
+2025-09-05 23:30:03,181 - INFO - ✅ Pulizia completata! Dati salvati in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Estrazioni_Giornaliere_Pulite\Giornaliera_Pulita_05-09-2025.xlsx
+2025-09-05 23:30:03,216 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
+
+2025-09-06 23:30:01,190 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+2025-09-06 23:30:01,192 - INFO - Cartella input: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_06_09_2025
+2025-09-06 23:30:01,665 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-00_09.xlsx (righe: 392)
+2025-09-06 23:30:01,730 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-01_09.xlsx (righe: 392)
+2025-09-06 23:30:01,797 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-02_09.xlsx (righe: 392)
+2025-09-06 23:30:01,863 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-03_10.xlsx (righe: 391)
+2025-09-06 23:30:01,930 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-04_09.xlsx (righe: 392)
+2025-09-06 23:30:02,014 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-05_09.xlsx (righe: 392)
+2025-09-06 23:30:02,082 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-06_09.xlsx (righe: 392)
+2025-09-06 23:30:02,147 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-07_09.xlsx (righe: 392)
+2025-09-06 23:30:02,214 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-08_09.xlsx (righe: 392)
+2025-09-06 23:30:02,280 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-09_09.xlsx (righe: 392)
+2025-09-06 23:30:02,347 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-10_09.xlsx (righe: 392)
+2025-09-06 23:30:02,412 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-11_09.xlsx (righe: 392)
+2025-09-06 23:30:02,478 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-12_09.xlsx (righe: 392)
+2025-09-06 23:30:02,551 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-13_09.xlsx (righe: 392)
+2025-09-06 23:30:02,606 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-14_09.xlsx (righe: 392)
+2025-09-06 23:30:02,662 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-15_09.xlsx (righe: 392)
+2025-09-06 23:30:02,717 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-16_09.xlsx (righe: 392)
+2025-09-06 23:30:02,770 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-17_09.xlsx (righe: 392)
+2025-09-06 23:30:02,823 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-18_09.xlsx (righe: 392)
+2025-09-06 23:30:02,875 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-19_10.xlsx (righe: 392)
+2025-09-06 23:30:02,928 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-20_09.xlsx (righe: 392)
+2025-09-06 23:30:02,981 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-21_09.xlsx (righe: 392)
+2025-09-06 23:30:03,054 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-22_09.xlsx (righe: 392)
+2025-09-06 23:30:03,109 - INFO - Letto: Estrazione_Giornaliera_06_09_2025-23_09.xlsx (righe: 392)
+2025-09-06 23:30:03,112 - INFO - Uniti 24 file. Righe totali prima della pulizia: 9407
+2025-09-06 23:30:03,117 - INFO - Rimosse 0 righe completamente vuote.
+2025-09-06 23:30:03,128 - INFO - Rimosse 8115 righe duplicate.
+2025-09-06 23:30:03,129 - INFO - Numero finale di righe uniche: 1292
+2025-09-06 23:30:03,345 - INFO - ✅ Pulizia completata! Dati salvati in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Estrazioni_Giornaliere_Pulite\Giornaliera_Pulita_06-09-2025.xlsx
+2025-09-06 23:30:03,381 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
+
+2025-09-07 23:30:01,055 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+2025-09-07 23:30:01,057 - INFO - Cartella input: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_07_09_2025
+2025-09-07 23:30:01,530 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-00_09.xlsx (righe: 392)
+2025-09-07 23:30:01,596 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-01_09.xlsx (righe: 392)
+2025-09-07 23:30:01,665 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-02_09.xlsx (righe: 392)
+2025-09-07 23:30:01,735 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-03_10.xlsx (righe: 391)
+2025-09-07 23:30:01,800 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-04_09.xlsx (righe: 391)
+2025-09-07 23:30:01,884 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-05_09.xlsx (righe: 392)
+2025-09-07 23:30:01,950 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-06_09.xlsx (righe: 392)
+2025-09-07 23:30:02,015 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-07_09.xlsx (righe: 392)
+2025-09-07 23:30:02,083 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-08_09.xlsx (righe: 392)
+2025-09-07 23:30:02,149 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-09_09.xlsx (righe: 392)
+2025-09-07 23:30:02,218 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-10_09.xlsx (righe: 392)
+2025-09-07 23:30:02,287 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-11_09.xlsx (righe: 392)
+2025-09-07 23:30:02,339 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-12_09.xlsx (righe: 392)
+2025-09-07 23:30:02,412 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-13_09.xlsx (righe: 392)
+2025-09-07 23:30:02,465 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-14_09.xlsx (righe: 392)
+2025-09-07 23:30:02,520 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-15_09.xlsx (righe: 392)
+2025-09-07 23:30:02,573 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-16_09.xlsx (righe: 392)
+2025-09-07 23:30:02,626 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-17_09.xlsx (righe: 392)
+2025-09-07 23:30:02,680 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-18_09.xlsx (righe: 392)
+2025-09-07 23:30:02,738 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-19_09.xlsx (righe: 392)
+2025-09-07 23:30:02,791 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-20_09.xlsx (righe: 392)
+2025-09-07 23:30:02,847 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-21_09.xlsx (righe: 392)
+2025-09-07 23:30:02,920 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-22_09.xlsx (righe: 392)
+2025-09-07 23:30:02,974 - INFO - Letto: Estrazione_Giornaliera_07_09_2025-23_09.xlsx (righe: 392)
+2025-09-07 23:30:02,977 - INFO - Uniti 24 file. Righe totali prima della pulizia: 9406
+2025-09-07 23:30:02,983 - INFO - Rimosse 0 righe completamente vuote.
+2025-09-07 23:30:03,003 - INFO - Rimosse 8142 righe duplicate.
+2025-09-07 23:30:03,003 - INFO - Numero finale di righe uniche: 1264
+2025-09-07 23:30:03,217 - INFO - ✅ Pulizia completata! Dati salvati in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Estrazioni_Giornaliere_Pulite\Giornaliera_Pulita_07-09-2025.xlsx
+2025-09-07 23:30:03,253 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
+
+2025-09-08 23:30:01,133 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
+2025-09-08 23:30:01,134 - INFO - Cartella input: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_08_09_2025
+2025-09-08 23:30:01,593 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-00_09.xlsx (righe: 392)
+2025-09-08 23:30:01,668 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-01_09.xlsx (righe: 392)
+2025-09-08 23:30:01,739 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-02_09.xlsx (righe: 392)
+2025-09-08 23:30:01,807 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-03_09.xlsx (righe: 392)
+2025-09-08 23:30:01,874 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-04_09.xlsx (righe: 392)
+2025-09-08 23:30:01,959 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-05_09.xlsx (righe: 392)
+2025-09-08 23:30:02,024 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-06_09.xlsx (righe: 392)
+2025-09-08 23:30:02,091 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-07_09.xlsx (righe: 392)
+2025-09-08 23:30:02,160 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-08_09.xlsx (righe: 392)
+2025-09-08 23:30:02,226 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-09_09.xlsx (righe: 392)
+2025-09-08 23:30:02,294 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-10_09.xlsx (righe: 392)
+2025-09-08 23:30:02,361 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-11_09.xlsx (righe: 392)
+2025-09-08 23:30:02,415 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-14_09.xlsx (righe: 392)
+2025-09-08 23:30:02,490 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-15_09.xlsx (righe: 392)
+2025-09-08 23:30:02,545 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-16_09.xlsx (righe: 392)
+2025-09-08 23:30:02,599 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-17_09.xlsx (righe: 392)
+2025-09-08 23:30:02,654 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-18_09.xlsx (righe: 392)
+2025-09-08 23:30:02,708 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-19_09.xlsx (righe: 392)
+2025-09-08 23:30:02,763 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-20_09.xlsx (righe: 392)
+2025-09-08 23:30:02,817 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-21_09.xlsx (righe: 391)
+2025-09-08 23:30:02,870 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-22_09.xlsx (righe: 392)
+2025-09-08 23:30:02,924 - INFO - Letto: Estrazione_Giornaliera_08_09_2025-23_09.xlsx (righe: 392)
+2025-09-08 23:30:02,926 - INFO - Uniti 22 file. Righe totali prima della pulizia: 8623
+2025-09-08 23:30:02,932 - INFO - Rimosse 0 righe completamente vuote.
+2025-09-08 23:30:02,941 - INFO - Rimosse 7383 righe duplicate.
+2025-09-08 23:30:02,941 - INFO - Numero finale di righe uniche: 1240
+2025-09-08 23:30:03,175 - INFO - ✅ Pulizia completata! Dati salvati in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Estrazioni_Giornaliere_Pulite\Giornaliera_Pulita_08-09-2025.xlsx
+2025-09-08 23:30:03,192 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
+

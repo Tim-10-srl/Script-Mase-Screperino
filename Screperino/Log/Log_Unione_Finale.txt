@@ -187,3 +187,33 @@
 2025-09-02 23:30:08,527 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\security\Documents\Codice\Python\Screperino\File_Output\Master\MASTER_02-09-2025.xlsx
 2025-09-04 09:36:08,533 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
 2025-09-04 09:36:08,535 - ERROR - ERRORE CRITICO nel caricamento file: [Errno 2] No such file or directory: 'C:\\Users\\amministrazione\\Desktop\\Script\\Sviluppo\\Screperino\\File_Output\\Estrazioni_Giornaliere_Pulite\\Giornaliera_Pulita_04-09-2025.xlsx'
+2025-09-04 23:30:07,857 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-09-04 23:30:08,597 - INFO - Tutti i file sorgente sono stati caricati.
+2025-09-04 23:30:08,597 - INFO - Inizio armonizzazione...
+2025-09-04 23:30:08,611 - INFO - Inizio unione...
+2025-09-04 23:30:08,623 - INFO - Unite le specifiche della nave.
+2025-09-04 23:30:08,630 - INFO - Uniti dati dal Bot.
+2025-09-04 23:30:10,024 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Master\MASTER_04-09-2025.xlsx
+2025-09-05 23:30:07,651 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-09-05 23:30:08,371 - INFO - Tutti i file sorgente sono stati caricati.
+2025-09-05 23:30:08,372 - INFO - Inizio armonizzazione...
+2025-09-05 23:30:08,383 - INFO - Inizio unione...
+2025-09-05 23:30:08,387 - INFO - Unite le specifiche della nave.
+2025-09-05 23:30:08,393 - INFO - Uniti dati dal Bot.
+2025-09-05 23:30:09,838 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Master\MASTER_05-09-2025.xlsx
+2025-09-06 23:30:07,821 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-09-06 23:30:08,536 - INFO - Tutti i file sorgente sono stati caricati.
+2025-09-06 23:30:08,536 - INFO - Inizio armonizzazione...
+2025-09-06 23:30:08,548 - INFO - Inizio unione...
+2025-09-06 23:30:08,553 - INFO - Unite le specifiche della nave.
+2025-09-06 23:30:08,559 - INFO - Uniti dati dal Bot.
+2025-09-06 23:30:10,008 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Master\MASTER_06-09-2025.xlsx
+2025-09-07 23:30:07,647 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-09-07 23:30:07,649 - ERROR - Mancano i seguenti input richiesti: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Bot_Pulito\Bot_Pulito_07-09-2025.xlsx
+2025-09-08 23:30:08,049 - INFO - ================== AVVIO SCRIPT UNIONE FINALE ==================
+2025-09-08 23:30:08,734 - INFO - Tutti i file sorgente sono stati caricati.
+2025-09-08 23:30:08,734 - INFO - Inizio armonizzazione...
+2025-09-08 23:30:08,748 - INFO - Inizio unione...
+2025-09-08 23:30:08,763 - INFO - Unite le specifiche della nave.
+2025-09-08 23:30:08,770 - INFO - Uniti dati dal Bot.
+2025-09-08 23:30:10,147 - INFO - ✅ UNIONE COMPLETATA! File salvato in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Master\MASTER_08-09-2025.xlsx

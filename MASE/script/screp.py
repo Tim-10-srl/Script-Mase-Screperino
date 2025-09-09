@@ -21,6 +21,7 @@ def safe_print(msg: str):
 
 import pandas as pd
 import time
+import random
 import re
 import os
 from datetime import datetime
@@ -76,13 +77,9 @@ def main():
         nome_porto = riga['Nome Porto']
         port_id = int(riga['ID Porto'])
         print(f"\n--- Analizzando: {nome_porto} (ID: {port_id}) ---")
-        url_porto = f"{BASE_URL}/?port={port_id}"
+        url_porto = f"{BASE_URL}/inport?pid={port_id}"
         try:
             driver.get(url_porto)
-            details_element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "info_details")))
-            relative_link = details_element.get_attribute('href')
-            full_url = BASE_URL + relative_link
-            driver.get(full_url)
             tabella_element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "myst-table")))
             soup = BeautifulSoup(tabella_element.get_attribute('outerHTML'), 'lxml')
             
@@ -96,9 +93,11 @@ def main():
                         mmsi_gia_trovati.add(mmsi)
                         navi_trovate_nel_porto += 1
             print(f"  -> Trovate {navi_trovate_nel_porto} nuove navi.")
+            time.sleep(random.uniform(0.6, 1))
         except Exception as e:
             print(f"  -> ATTENZIONE: Errore su porto {nome_porto}. {e}")
-        time.sleep(0.2)
+        
+
 
     cleanup_profile(driver, __prof)
 
