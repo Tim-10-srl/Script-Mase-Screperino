@@ -419,3 +419,51 @@ Name: 0, Length: 725, dtype: object' is not compatible with origin='1899-12-30';
 2025-09-08 23:30:06,925 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Bot_Pulito\Bot_Pulito_08-09-2025.xlsx
 2025-09-08 23:30:06,925 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
 
+2025-09-09 23:30:04,189 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-09 23:30:04,191 - INFO - Trovati 36 file da analizzare per la data 09-09-2025.
+2025-09-09 23:30:05,999 - INFO - Trovate 285 righe nel file Bot 09022025_2046.xlsx.
+2025-09-09 23:30:06,374 - INFO - Righe totali trovate prima della pulizia: 285
+2025-09-09 23:30:06,377 - INFO - Numero finale di righe uniche: 285
+2025-09-09 23:30:06,471 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Bot_Pulito\Bot_Pulito_09-09-2025.xlsx
+2025-09-09 23:30:06,472 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-09-10 23:30:03,432 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-10 23:30:03,433 - INFO - Trovati 36 file da analizzare per la data 10-09-2025.
+2025-09-10 23:30:05,542 - INFO - Trovate 275 righe nel file Bot 09032025_1129.xlsx.
+2025-09-10 23:30:05,872 - INFO - Righe totali trovate prima della pulizia: 275
+2025-09-10 23:30:05,874 - INFO - Numero finale di righe uniche: 275
+2025-09-10 23:30:05,967 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Bot_Pulito\Bot_Pulito_10-09-2025.xlsx
+2025-09-10 23:30:05,968 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-09-11 23:30:04,348 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-11 23:30:04,350 - INFO - Trovati 36 file da analizzare per la data 11-09-2025.
+2025-09-11 23:30:06,648 - INFO - Trovate 273 righe nel file Bot 09032025_1354.xlsx.
+2025-09-11 23:30:07,048 - INFO - Righe totali trovate prima della pulizia: 273
+2025-09-11 23:30:07,050 - INFO - Numero finale di righe uniche: 273
+2025-09-11 23:30:07,142 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Bot_Pulito\Bot_Pulito_11-09-2025.xlsx
+2025-09-11 23:30:07,142 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-09-12 23:30:04,590 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-12 23:30:04,593 - INFO - Trovati 36 file da analizzare per la data 12-09-2025.
+2025-09-12 23:30:06,941 - INFO - Trovate 280 righe nel file Bot 09032025_1631.xlsx.
+2025-09-12 23:30:07,301 - INFO - Righe totali trovate prima della pulizia: 280
+2025-09-12 23:30:07,303 - INFO - Numero finale di righe uniche: 280
+2025-09-12 23:30:07,401 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Bot_Pulito\Bot_Pulito_12-09-2025.xlsx
+2025-09-12 23:30:07,402 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-09-13 23:30:04,272 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-13 23:30:04,273 - INFO - Trovati 36 file da analizzare per la data 13-09-2025.
+2025-09-13 23:30:06,685 - INFO - Trovate 265 righe nel file Bot 09042025_1127.xlsx.
+2025-09-13 23:30:06,972 - INFO - Righe totali trovate prima della pulizia: 265
+2025-09-13 23:30:06,974 - INFO - Numero finale di righe uniche: 265
+2025-09-13 23:30:07,068 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Bot_Pulito\Bot_Pulito_13-09-2025.xlsx
+2025-09-13 23:30:07,069 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+
+2025-09-14 23:30:04,515 - INFO - ================== AVVIO SCRIPT PULIZIA BOT ==================
+2025-09-14 23:30:04,516 - INFO - Trovati 36 file da analizzare per la data 14-09-2025.
+2025-09-14 23:30:07,003 - INFO - Trovate 273 righe nel file Bot 09042025_1544.xlsx.
+2025-09-14 23:30:07,217 - INFO - Righe totali trovate prima della pulizia: 273
+2025-09-14 23:30:07,220 - INFO - Numero finale di righe uniche: 273
+2025-09-14 23:30:07,315 - INFO - ✅ Dati del bot puliti e salvati in: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\File_Output\Bot_Pulito\Bot_Pulito_14-09-2025.xlsx
+2025-09-14 23:30:07,315 - INFO - ================== FINE SCRIPT PULIZIA BOT ===================
+

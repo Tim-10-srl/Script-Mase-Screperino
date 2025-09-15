@@ -3,6 +3,9 @@ import time
 import sys
 import os
 import argparse
+import logging
+from logging.handlers import RotatingFileHandler
+from config import LOG_DIR
 
 # --- CONFIGURAZIONE ---
 PYTHON_EXE = sys.executable
@@ -13,27 +16,42 @@ INTERVALLO_SECONDI = 4 * 60 * 60  # resident: ogni 4 ore
 LOCK = os.path.join(PATH_CARTELLA_SCRIPT, "mase.lock")
 LOCK_TTL_SEC = 5 * 60 * 60  # 5 ore: B gira ogni 4h, oltre 5h il lock è stale
 
+# --- LOG B (MASE) ---
+os.makedirs(LOG_DIR, exist_ok=True)
+logger_b = logging.getLogger("mase")
+logger_b.setLevel(logging.INFO)
+
+if not logger_b.handlers:
+    fh = RotatingFileHandler(os.path.join(LOG_DIR, "mase.log"),
+                             maxBytes=2_000_000, backupCount=3, encoding="utf-8")
+    fmt = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    fh.setFormatter(fmt)
+    sh = logging.StreamHandler(sys.stdout)
+    sh.setFormatter(fmt)
+    logger_b.addHandler(fh)
+    logger_b.addHandler(sh)
+
+
 def sanity_checks():
     assert os.path.isdir(PATH_CARTELLA_SCRIPT), f"Cartella script non esiste: {PATH_CARTELLA_SCRIPT}"
     assert os.path.isfile(PATH_SCRIPT_1), f"Manca screp.py in {PATH_CARTELLA_SCRIPT}"
     assert os.path.isfile(PATH_SCRIPT_2), f"Manca elaboratore.py in {PATH_CARTELLA_SCRIPT}"
     assert os.path.isfile(PYTHON_EXE), f"Python non trovato: {PYTHON_EXE}"
 
+
 def acquire_lock():
-    # se il lock esiste ma è STALE (vecchio), lo rimuovo
     if os.path.exists(LOCK):
         age = time.time() - os.path.getmtime(LOCK)
         if age > LOCK_TTL_SEC:
             try:
                 os.remove(LOCK)
-                print(f"Lock stale rimosso (età {int(age)}s).")
+                logger_b.info(f"Lock stale rimosso (età {int(age)}s).")
             except Exception as e:
-                print(f"Lock stale ma non rimovibile: {e}")
+                logger_b.error(f"Lock stale ma non rimovibile: {e}")
                 return False
         else:
             return False
 
-    # creazione atomica del lock
     try:
         fd = os.open(LOCK, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
         with os.fdopen(fd, "w") as f:
@@ -42,22 +60,36 @@ def acquire_lock():
     except FileExistsError:
         return False
 
+
 def release_lock():
     try:
         os.remove(LOCK)
     except FileNotFoundError:
         pass
 
+
+def _run_and_stream(cmd, cwd, prefix):
+    # forza Python unbuffered nei figli
+    env = {**os.environ, "PYTHONUNBUFFERED": "1"}
+    cmd = [cmd[0], "-u"] + cmd[1:]  # aggiunge -u a PYTHON_EXE
+
+    logger_b.info(f"[{prefix}] Avvio comando: {cmd}")
+    with subprocess.Popen(cmd, cwd=cwd, text=True, encoding="utf-8", errors="replace",
+                          stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+                          env=env, bufsize=1) as p:
+        for line in p.stdout:
+            logger_b.info(f"[{prefix}] {line.rstrip()}")
+        rc = p.wait()
+    if rc != 0:
+        logger_b.error(f"[{prefix}] Terminato con codice {rc}")
+        raise subprocess.CalledProcessError(rc, cmd)
+
+
 def run_one_cycle():
-    print(f"\n[FASE 1] Avvio di 'screp.py'...")
-    subprocess.run([PYTHON_EXE, PATH_SCRIPT_1], check=True, cwd=PATH_CARTELLA_SCRIPT)
-    print(f"[FASE 1] '{os.path.basename(PATH_SCRIPT_1)}' completato con successo.")
-
+    _run_and_stream([PYTHON_EXE, PATH_SCRIPT_1], PATH_CARTELLA_SCRIPT, "screp")
     time.sleep(10)
+    _run_and_stream([PYTHON_EXE, PATH_SCRIPT_2], PATH_CARTELLA_SCRIPT, "elaboratore")
 
-    print(f"\n[FASE 2] Avvio di 'elaboratore.py'...")
-    subprocess.run([PYTHON_EXE, PATH_SCRIPT_2], check=True, cwd=PATH_CARTELLA_SCRIPT)
-    print(f"[FASE 2] '{os.path.basename(PATH_SCRIPT_2)}' completato con successo.")
 
 def main():
     sanity_checks()
@@ -66,63 +98,60 @@ def main():
     parser.add_argument("--once", action="store_true", help="Esegue una sola corsa e termina")
     args = parser.parse_args()
 
-    print("--- GESTORE MASE AVVIATO ---")
+    logger_b.info("--- GESTORE MASE AVVIATO ---")
 
-    # Modalità orchestrata (chiamata da A)
     if args.once:
         if not acquire_lock():
-            print("Lock presente: B sembra già in esecuzione. Esco.")
-            sys.exit(111)  # rc=111: SKIPPED per lock
+            logger_b.info("Lock presente: B sembra già in esecuzione. Esco.")
+            sys.exit(111)
         try:
             run_one_cycle()
         except subprocess.CalledProcessError as e:
-            print(f"!!! ERRORE: Uno degli script ha terminato con un errore: {e}")
+            logger_b.error(f"!!! ERRORE: Uno degli script ha terminato con un errore: {e}")
             sys.exit(1)
         except FileNotFoundError:
-            print("!!! ERRORE: File non trovato. Controlla i percorsi degli script.")
+            logger_b.error("!!! ERRORE: File non trovato. Controlla i percorsi degli script.")
             sys.exit(1)
         except Exception as e:
-            print(f"!!! ERRORE INASPETTATO nel gestore: {e}")
+            logger_b.error(f"!!! ERRORE INASPETTATO nel gestore: {e}")
             sys.exit(1)
         finally:
             release_lock()
-        print("\n--- CORSA SINGOLA COMPLETATA ---")
+        logger_b.info("--- CORSA SINGOLA COMPLETATA ---")
         return
 
-    # Modalità resident (stand-alone, ogni 4 ore)
     if not acquire_lock():
-        print("Lock presente: B già in esecuzione altrove. Esco.")
+        logger_b.info("Lock presente: B già in esecuzione altrove. Esco.")
         return
 
     try:
-        print(f"Il processo verrà eseguito ogni {INTERVALLO_SECONDI / 3600} ore.")
-        print("ATTENZIONE: Non chiudere questa finestra del terminale.")
+        logger_b.info(f"Il processo verrà eseguito ogni {INTERVALLO_SECONDI / 3600} ore.")
         ciclo_numero = 0
         while True:
             ciclo_numero += 1
-            print(f"\n--- INIZIO CICLO #{ciclo_numero} ({time.strftime('%d/%m/%Y %H:%M:%S')}) ---")
+            logger_b.info(f"--- INIZIO CICLO #{ciclo_numero} ({time.strftime('%d/%m/%Y %H:%M:%S')}) ---")
             try:
                 run_one_cycle()
             except subprocess.CalledProcessError as e:
-                print(f"!!! ERRORE: Uno degli script ha terminato con un errore: {e}")
+                logger_b.error(f"!!! ERRORE: Uno degli script ha terminato con un errore: {e}")
             except FileNotFoundError:
-                print("!!! ERRORE: File non trovato. Controlla i percorsi degli script.")
+                logger_b.error("!!! ERRORE: File non trovato. Controlla i percorsi degli script.")
                 break
             except Exception as e:
-                print(f"!!! ERRORE INASPETTATO nel gestore: {e}")
+                logger_b.error(f"!!! ERRORE INASPETTATO nel gestore: {e}")
 
-            # heartbeat sul lock: aggiorna mtime per indicare che il processo è vivo
             try:
                 os.utime(LOCK, None)
             except Exception:
                 pass
 
-            print(f"\n--- CICLO #{ciclo_numero} COMPLETATO ---")
+            logger_b.info(f"--- CICLO #{ciclo_numero} COMPLETATO ---")
             ora_prossima = time.strftime('%H:%M:%S', time.localtime(time.time() + INTERVALLO_SECONDI))
-            print(f"Prossima esecuzione tra {INTERVALLO_SECONDI / 3600} ore (alle {ora_prossima})")
+            logger_b.info(f"Prossima esecuzione tra {INTERVALLO_SECONDI / 3600} ore (alle {ora_prossima})")
             time.sleep(INTERVALLO_SECONDI)
     finally:
         release_lock()
+
 
 if __name__ == "__main__":
     main()

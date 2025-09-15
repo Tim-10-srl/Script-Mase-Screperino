@@ -1,4 +1,0 @@
-2025-09-03 15:19:23,040 - INFO - ================== AVVIO SCRIPT DI PULIZIA ==================
-2025-09-03 15:19:23,041 - WARNING - Nessuna cartella di input per la data 02-09-2025: C:\Users\amministrazione\Desktop\Script\Sviluppo\Screperino\Screperino\File_Output\Estrazioni_Giornaliere\Estrazioni_02_09_2025. Esco senza errore.
-2025-09-03 15:19:23,041 - INFO - ================== FINE SCRIPT DI PULIZIA ===================
-
